@@ -1,0 +1,47 @@
+.skills-container{
+    padding: 40px;
+    background-image: url('../assets/wp3.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /* background-color: #f7f9fc; */
+}
+
+.skills-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #101a52;
+}
+
+.skills-grid{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-item{
+    padding: 20px;
+    text-align: left;
+}
+
+.skill-name{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.skill-bar .MuiLinearProgress-barColorPrimary {
+    background-color: #101a52;
+  }
+
+.skill-bar{
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+
+.skill-level {
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }

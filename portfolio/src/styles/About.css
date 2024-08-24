@@ -1,0 +1,41 @@
+.about-container {
+    background-color: #e0e7ff; /* Light background */
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .about-content {
+    max-width: 900px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    color: #00137f; /* Navy color */
+    font-weight: bold;
+  }
+  
+  .about-description {
+    color: #414649;
+    margin-bottom: 16px;
+  }
+  
+  .about-avatar-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-avatar {
+    max-width: 300px;
+    border-radius: 20px;
+    margin: auto;
+  }
+  

@@ -1,0 +1,53 @@
+/* Header.css */
+.appBar {
+  background: linear-gradient(90deg, #1f3b73, #3b5998);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  box-shadow: none;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  margin-right: 28px;
+  transition: transform 0.3s ease-in-out;
+
+
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  animation: textAnimation 2s ease-in-out infinite alternate;
+  font-weight: bold;
+}
+
+/* Keyframes for text animation */
+@keyframes textAnimation {
+  0% {
+    letter-spacing: 2px;
+  }
+
+  100% {
+    letter-spacing: 6px;
+  }
+}
+
+.appBar:hover {
+  background: linear-gradient(90deg, #3b5998, #1f3b73);
+}
+
+.title:hover {
+  color: #ffdd57;
+  transition: color 0.3s ease-in-out;
+}

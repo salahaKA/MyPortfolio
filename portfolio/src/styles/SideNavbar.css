@@ -1,0 +1,58 @@
+.side-navbar {
+  width: 240px;
+  flex-shrink: 0;
+  position: relative;
+  background-color: #1f1f1f;
+  height: 100vh;
+  padding-top: 0px;
+  padding-left: 10px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.3s ease-in-out;
+}
+
+.listItem {
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.listItem:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.listItem .MuiListItemText-primary {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.icon {
+  color: #f5a623;
+  min-width: 40px;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.listItem:hover .icon{
+  transform: rotate(20deg);
+}
+
+@media (max-width: 768px) {
+  .side-navbar {
+    width: 100%;
+    height: auto;
+  }
+
+  .listItem {
+    padding: 10px 15px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}

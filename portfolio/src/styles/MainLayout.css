@@ -1,0 +1,40 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  flex-shrink: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.main-content {
+  margin-left: 240px;
+  flex-grow: 1;
+  padding: 20px;
+  padding-top: 66px;
+  padding-bottom: 64px;
+  overflow: hidden;
+}
+
+.side-navbar {
+  width: 240px;
+  flex-shrink: 0;
+  z-index: 100;
+  position: fixed;
+  top: 70px;
+  bottom: 64px;
+  left: 0;
+  overflow: hidden;
+}
+
+.footer {
+  flex-shrink: 0;
+  position: relative;
+  bottom: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
