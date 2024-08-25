@@ -6,6 +6,7 @@
 *.jpeg
 *.jpg
 *.webp
+*.svg
 # dependencies
 /node_modules
 /.pnp
