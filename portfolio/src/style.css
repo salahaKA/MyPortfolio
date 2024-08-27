@@ -155,8 +155,10 @@ html {
   }
   
   .logo {
-    height: 1.4em !important;
+    /* height: 1.4em !important; */
     width: 2.5em !important;
+    border-radius: 50%;  
+    object-fit: cover;  
   }
   
   .navbar-nav .nav-link {
@@ -280,6 +282,7 @@ html {
     padding-left: 45px !important;
   }
   
+  
   .main-name {
     color: #cd5ff8;
   }
@@ -306,14 +309,27 @@ html {
   }
   
   .myAvtar {
+    display: flex;
     justify-content: center !important;
     padding-top: 9em !important;
+  }
+
+  .avatar-img{
+    width: 200px;
+    height: 200px;
+     border-radius: 50%;  /*Circular image */
+    object-fit: cover;  /*Image fit well in circular */
   }
   
   @media (max-width: 767px) {
     .myAvtar {
       padding-top: 2em !important;
       padding-bottom: 2em !important;
+    }
+    .avatar-img{
+      width: 100px;
+      height: 100px;
+       
     }
   }
   
