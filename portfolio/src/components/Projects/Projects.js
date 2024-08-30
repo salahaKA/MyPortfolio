@@ -1,14 +1,14 @@
-
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/p.jpg";
 import emotion from "../../Assets/Projects/p.jpg";
-import editor from "../../Assets/Projects/p.jpg";
-import chatify from "../../Assets/Projects/p.jpg";
+import portfolio from "../../Assets/Projects/portfolio.png";
+import Eigo from "../../Assets/Projects/eigo.png";
 import suicide from "../../Assets/Projects/p.jpg";
-import bitsOfCode from "../../Assets/Projects/p.jpg";
+import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
+import DCS from "../../Assets/Projects/DCS.png";
 
 function Projects() {
   return (
@@ -16,42 +16,66 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Basic Project <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are the basic projects I've worked on during my academic days and
+          internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={portfolio}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Salahaka"
+              description="My personal portfolio wesite using React,botstrap,css and git"
+              ghLink="https://github.com/salahaKA/MyPortfolio.git"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={DCS}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Digital CheckSheet"
+              description="RDLTechnologies Internshipproject done with React, MUI, css, Node, Express, MySQL and git"
+              ghLink="https://github.com/salahaKA/checklist.git"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={DCS}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Bharath Enterprices"
+              description="E-commerce hardware store web application with Python django.  
+Technology Used: Frontend- HTML/CSS/JS and Bootstrap Backend- Python Django Database: Sqlite3 APIs: Payment gatways and Google Maps API Version Control: Git Code Editor: VS Code     
+"
+              ghLink="https://github.com/salahaKA/checklist.git"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wlcmGit}
+              isBlog={false}
+              title="Salahaka github welcom page"
+              description="My Github about page portfolio"
+              ghLink="https://github.com/salahaKA"
+              demoLink="https://salahaka.github.io/salahaKA/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Eigo}
+              isBlog={false}
+              title="Eigo"
+              description="Frontend home page only for online shopping webste"
+              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
+              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
             />
           </Col>
 
@@ -59,10 +83,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="We Care"
+              description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
+              ghLink="https://github.com/salahaKA/wecare"
+              demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col>
 
@@ -71,9 +95,9 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description=""
+              ghLink="https://github.com/salahaKA"
+              demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col>
 
@@ -81,11 +105,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Dibetsprediction using ML"
+              ghLink=""
+              demoLink=""
             />
           </Col>
         </Row>
