@@ -20,8 +20,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♀️
+              Hello! I'm Kadeejath Salaha, a passionate
+              Software Developer with a strong foundation in front-end and
+              back-end technologies. With a Master’s in Computer Application and
+              hands-on experience through internships and projects, 
+              {/* I'm
+              committed to building impactful web applications. */}
               <br />
               <br />I am fluent in classics like
               <i>
@@ -46,8 +50,12 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and MUI</b>
+                <b className="purple"> React.js and MUI/bootstrap</b>
               </i>
+              <br /> 
+              <br/>
+              Feel free to connect with me on<b className="purple"> LinkedIn</b>  or check out my <b className="purple"> GitHub</b>
+              to see more of my work.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -103,7 +111,7 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.instagram.com/__s_a_l_a_h_a__"
                   target="_blank"
@@ -112,7 +120,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li> */}
+              </li>
 
               <li className="social-icons">
                 <a
@@ -124,7 +132,7 @@ function Home2() {
                   <FaStackOverflow />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.chess.com/member/salaha_07"
                   target="_blank"
@@ -133,7 +141,7 @@ function Home2() {
                 >
                   <FaChess />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

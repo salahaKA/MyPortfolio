@@ -281,6 +281,10 @@ html {
     font-size: 2.5em !important;
     padding-left: 45px !important;
   }
+  .heading-namee {
+    font-size: 1.5em !important;
+    padding-left: 45px !important;
+  }
   
   
   .main-name {
@@ -756,4 +760,11 @@ html {
   }
   .fork-btn-inner::after {
     display: none !important;
+  }
+
+
+  .home-logo {
+    max-height: 250px;
+    white-space: pre; 
+    
   }

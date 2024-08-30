@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn, FaChess } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Footer() {
@@ -43,7 +39,7 @@ function Footer() {
                 <SiGmail />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/salahaka/"
@@ -62,6 +58,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.chess.com/member/salaha_07"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaChess />
               </a>
             </li>
           </ul>
