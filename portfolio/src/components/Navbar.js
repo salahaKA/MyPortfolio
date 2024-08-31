@@ -93,13 +93,19 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav>
+            {/* <Nav>
               <Nav.Item>
                 <Nav.Link href="#" target="_blank" rel="noreferrer">
                   <FaTools style={{ marginBottom: "2px" }} /> Skills
                 </Nav.Link>
               </Nav.Item>
-            </Nav>
+            </Nav> */}
+
+            <Nav.Item>
+              <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
+                <FaTools style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
 
             {/* <Nav.Item>
               <Nav.Link href="#" target="_blank" rel="noreferrer">
