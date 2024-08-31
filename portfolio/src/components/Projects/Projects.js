@@ -9,7 +9,7 @@ import Eigo from "../../Assets/Projects/eigo.png";
 import suicide from "../../Assets/Projects/p.jpg";
 import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
 import DCS from "../../Assets/Projects/DCS.png";
-
+import penGes from "../../Assets/Projects/DCS.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -27,8 +27,8 @@ function Projects() {
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
-              title="Salahaka"
-              description="My personal portfolio wesite using React,botstrap,css and git"
+              title="Personal Portfolio Website (2024)"
+              description="Designed and developed a responsive portfolio website using React, CSS and bootstrap to showcase projects and professional skills."
               ghLink="https://github.com/salahaKA/MyPortfolio.git"
               demoLink=""
             />
@@ -38,8 +38,8 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="Digital CheckSheet"
-              description="RDLTechnologies Internshipproject done with React, MUI, css, Node, Express, MySQL and git"
+              title="Digital Check Sheet (2024)"
+              description="Developed a Digital Check Sheet Management System using MERN stack during an internship at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
             />
@@ -49,12 +49,32 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="Bharath Enterprices"
-              description="E-commerce hardware store web application with Python django.  
-Technology Used: Frontend- HTML/CSS/JS and Bootstrap Backend- Python Django Database: Sqlite3 APIs: Payment gatways and Google Maps API Version Control: Git Code Editor: VS Code     
-"
+              title="Bharath Enterprises (2024)"
+              description="Built an E-commerce hardware store web application with Django for managing online sales and payments."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={penGes}
+              isBlog={false}
+              title="penGes (2023)"
+              description="Created an Android notes application using Java and Firebase for efficient note-taking and organization."
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="We Care"
+              description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
+              ghLink="https://github.com/salahaKA/wecare"
+              demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col>
 
@@ -79,22 +99,13 @@ Technology Used: Frontend- HTML/CSS/JS and Bootstrap Backend- Python Django Data
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="We Care"
-              description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
-              ghLink="https://github.com/salahaKA/wecare"
-              demoLink="https://salahaka.github.io/salahaKA/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Cricket score dashboard"
               description=""
               ghLink="https://github.com/salahaKA"
               demoLink="https://salahaka.github.io/salahaKA/"
