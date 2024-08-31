@@ -4,10 +4,8 @@ import myImg from "../../Assets/salaha.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaChess, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
+import {  FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Home2() {

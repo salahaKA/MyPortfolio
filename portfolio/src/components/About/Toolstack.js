@@ -9,7 +9,6 @@ import {
   SiPycharm,
   SiJupyter,
   SiXampp,
-  SiFirebase,
   SiMicrosoft,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
