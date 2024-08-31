@@ -10,8 +10,8 @@ import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes3.png";
 import BE from "../../Assets/Projects/BE.png";
-import WeCare from "../../Assets/Projects/weCare.png"
-import Epitom23 from "../../Assets/Projects/Epitom.png"
+import WeCare from "../../Assets/Projects/weCare.png";
+import Epitom23 from "../../Assets/Projects/Epitom.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -53,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Bharath Enterprises (2024)"
               description="Built an E-commerce hardware store web application with Django for managing online sales and payments."
-              ghLink="https://github.com/salahaKA/checklist.git"
+              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink=""
             />
           </Col>
@@ -64,7 +64,7 @@ function Projects() {
               isBlog={false}
               title="penGes (2023)"
               description="Created an Android notes application using Java and Firebase for efficient note-taking and organization."
-              ghLink=""
+              ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
             />
           </Col>
@@ -101,9 +101,6 @@ function Projects() {
               demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col>
-          
-
-          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -115,8 +112,6 @@ function Projects() {
               demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col> */}
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard

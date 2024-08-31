@@ -39,7 +39,8 @@ function ResumeNew() {
           </Document>
         </Row> */}
 
-        <br/><br/>
+        <br />
+        <br />
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

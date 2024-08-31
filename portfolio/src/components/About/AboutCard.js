@@ -13,7 +13,8 @@ function AboutCard() {
             <br />
             I am working as Software Developer Intern @RDL Technologies Pvt Ltd.
             <br />
-            I have completed Post Graduation in MCA(Master of Computer Application) from AIMIT-St Aloysius Mangalore.
+            I have completed Post Graduation in MCA(Master of Computer
+            Application) from AIMIT-St Aloysius Mangalore.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

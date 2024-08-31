@@ -9,7 +9,7 @@ function Type() {
           "Full-Stack Developer Intern @RDL Teh",
           "MERN Stack Developer",
           "React/Node JS Developer",
-          "Passionate Software Developer"
+          "Passionate Software Developer",
         ],
         autoStart: true,
         loop: true,

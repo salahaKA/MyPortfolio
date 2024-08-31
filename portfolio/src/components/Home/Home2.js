@@ -20,10 +20,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello! I'm Kadeejath Salaha, a passionate
-              Software Developer with a strong foundation in front-end and
-              back-end technologies. With a Master’s in Computer Application and
-              hands-on experience through internships and projects, 
+              Hello! I'm Kadeejath Salaha, a passionate Software Developer with
+              a strong foundation in front-end and back-end technologies. With a
+              Master’s in Computer Application and hands-on experience through
+              internships and projects,
               {/* I'm
               committed to building impactful web applications. */}
               <br />
@@ -52,9 +52,13 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and MUI/bootstrap</b>
               </i>
-              <br /> 
-              <br/>
-              Feel free to connect with me on<b className="purple"> LinkedIn</b>  or check out my <b className="purple"> GitHub</b>
+              <br />
+              <br />
+              Feel free to connect with me on<b className="purple">
+                {" "}
+                LinkedIn
+              </b>{" "}
+              or check out my <b className="purple"> GitHub</b>
               to see more of my work.
             </p>
           </Col>
@@ -111,7 +115,7 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/__s_a_l_a_h_a__"
                   target="_blank"
@@ -120,7 +124,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
 
               <li className="social-icons">
                 <a

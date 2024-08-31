@@ -102,7 +102,11 @@ function NavBar() {
             </Nav> */}
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
                 <FaTools style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
