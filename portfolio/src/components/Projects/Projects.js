@@ -2,14 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/p.jpg";
-import emotion from "../../Assets/Projects/p.jpg";
+
 import portfolio from "../../Assets/Projects/portfolio.png";
 import Eigo from "../../Assets/Projects/eigo.png";
-import suicide from "../../Assets/Projects/p.jpg";
+
 import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
 import DCS from "../../Assets/Projects/DCS.png";
-import penGes from "../../Assets/Projects/DCS.png";
+import penGes from "../../Assets/Projects/penGes3.png";
+import BE from "../../Assets/Projects/BE.png";
+import WeCare from "../../Assets/Projects/weCare.png"
+import Epitom23 from "../../Assets/Projects/Epitom.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -47,7 +49,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DCS}
+              imgPath={BE}
               isBlog={false}
               title="Bharath Enterprises (2024)"
               description="Built an E-commerce hardware store web application with Django for managing online sales and payments."
@@ -69,12 +71,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Epitom23}
+              isBlog={false}
+              title="Diabetes Prediction Using Different Machine Learning Algorithm"
+              description="AIMIT National level Tech fest Epitome23 reasearch based Project done with SIG team"
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WeCare}
               isBlog={false}
               title="We Care"
               description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
               ghLink="https://github.com/salahaKA/wecare"
-              demoLink="https://salahaka.github.io/salahaKA/"
+              demoLink=""
             />
           </Col>
 
@@ -88,20 +101,11 @@ function Projects() {
               demoLink="https://salahaka.github.io/salahaKA/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Eigo}
-              isBlog={false}
-              title="Eigo"
-              description="Frontend home page only for online shopping webste"
-              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
-              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
-            />
-          </Col>
+          
 
           
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -110,15 +114,18 @@ function Projects() {
               ghLink="https://github.com/salahaKA"
               demoLink="https://salahaka.github.io/salahaKA/"
             />
-          </Col>
+          </Col> */}
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Eigo}
               isBlog={false}
-              title="Dibetsprediction using ML"
-              ghLink=""
-              demoLink=""
+              title="Eigo"
+              description="Demo shopping website frontend design"
+              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
+              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
             />
           </Col>
         </Row>
