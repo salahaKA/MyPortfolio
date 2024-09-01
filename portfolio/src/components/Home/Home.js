@@ -42,7 +42,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="home-logo"
-                style={{ maxHeight: "500px", whiteSpace: "pre" }}
+                style={{ maxHeight: "400px", whiteSpace: "pre" }}
               />
             </Col>
           </Row>
