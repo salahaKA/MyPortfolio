@@ -12,6 +12,7 @@ import penGes from "../../Assets/Projects/penGes3.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
+import MP from "../../Assets/Projects/mp.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -121,6 +122,16 @@ function Projects() {
               description="Demo shopping website frontend design"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
               demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MP}
+              isBlog={false}
+              title="Play Music"
+              description="Web design practice"
+              ghLink="https://github.com/salahaKA/musicplayer.git"
+              demoLink="https://salahaka.github.io/musicplayer/"
             />
           </Col>
         </Row>
