@@ -43,7 +43,7 @@ function Projects() {
               isBlog={false}
               title="Digital Check Sheet (2024)"
               description="Developed a Digital Check Sheet Management System using MERN stack during an internship at RDL Technologies."
-              ghLink=""
+              ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
             />
           </Col>
