@@ -129,7 +129,7 @@ function Projects() {
               imgPath={MP}
               isBlog={false}
               title="Play Music"
-              description="Web design practice"
+              description="Web design"
               ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
             />
