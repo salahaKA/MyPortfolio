@@ -32,8 +32,8 @@ function Projects() {
               isBlog={false}
               title="Personal Portfolio Website (2024)"
               description="Designed and developed a responsive portfolio website using React, CSS and bootstrap to showcase projects and professional skills."
-              ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              demoLink=""
+              ghLink=""
+              demoLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
 
@@ -44,7 +44,7 @@ function Projects() {
               title="Digital Check Sheet (2024)"
               description="Developed a Digital Check Sheet Management System using MERN stack during an internship at RDL Technologies."
               ghLink=""
-              demoLink="https://salahaka.github.io/MyPortfolio/"
+              demoLink=""
             />
           </Col>
 
