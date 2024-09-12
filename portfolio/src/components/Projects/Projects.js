@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Personal Portfolio Website (2024)"
               description="Designed and developed a responsive portfolio website using React, CSS and bootstrap to showcase projects and professional skills."
-              ghLink=""
+              ghLink="https://github.com/salahaKA/MyPortfolio.git"
               demoLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
