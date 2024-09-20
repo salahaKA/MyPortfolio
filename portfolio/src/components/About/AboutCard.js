@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">KADEEJATH SALAHA </span>
             from <span className="purple"> Kasaragod, Kerala, India.</span>
             <br />
-            I am working as Software Developer Intern @RDL Technologies Pvt Ltd.
+            Former Software Developer Intern <span className="purple">@RDL Technologies Pvt Ltd</span>.
             <br />
-            I have completed Post Graduation in MCA(Master of Computer
+            I have completed Post Graduation in <span className="purple">MCA</span> (Master of Computer
             Application) from AIMIT-St Aloysius Mangalore.
             <br />
             <br />
@@ -32,9 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "“Shine like the whole universe is yours.”"{" "}
+            "“Enjoy the little things in life because one day you'll look back and realize they were the big things”"{" "}
           </p>
-          <footer className="blockquote-footer">Rumi</footer>
+          <footer className="blockquote-footer">Robert Brault</footer>
         </blockquote>
       </Card.Body>
     </Card>
