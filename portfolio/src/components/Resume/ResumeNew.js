@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/CV_Salaha_SoftwareDeveloper.pdf";
 import cpdf from "../../Assets/../Assets/cirtificates FullStack.pdf";
+// import MCAMcard from "../../Assets/Resume/MCA marc Cards.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -54,16 +55,17 @@ function ResumeNew() {
           </Button>
         </Row>
 
-
-        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <br />
+        <br />
+        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={Cactivities}
+            href={MCAMcard}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Extra Curricular Activities
+            &nbsp;MCA Marks card
           </Button>
         </Row> */}
       </Container>
