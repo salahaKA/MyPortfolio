@@ -75,7 +75,7 @@ function Projects() {
               imgPath={Epitom23}
               isBlog={false}
               title="Diabetes Prediction Using Different Machine Learning Algorithm"
-              description="AIMIT National level Tech fest Epitome23 reasearch based Project done with SIG team"
+              description="AIMIT National level Tech fest Epitome23 research based project done with SIG team"
               ghLink=""
               demoLink=""
             />
