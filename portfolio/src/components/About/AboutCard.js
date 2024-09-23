@@ -14,7 +14,7 @@ function AboutCard() {
             Former Software Developer Intern <span className="purple">@RDL Technologies Pvt Ltd</span>.
             <br />
             I have completed Post Graduation in <span className="purple">MCA</span> (Master of Computer
-            Application) from St Aloysius Institute of Management & Information Technology (AIMIT).
+            Application) from <span className="purple">St Aloysius Institute of Management & Information Technology</span> (AIMIT).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -32,9 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "“Enjoy the little things in life because one day you'll look back and realize they were the big things”"{" "}
+            "“Shine like the whole universe is yours.”"{" "}
           </p>
-          <footer className="blockquote-footer">Robert Brault</footer>
+          <footer className="blockquote-footer">Rumi</footer>
         </blockquote>
       </Card.Body>
     </Card>
