@@ -10,8 +10,10 @@ import {
   SiJupyter,
   SiXampp,
   SiMicrosoft,
+  SiReact,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -20,10 +22,16 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGit /> {/* GitHub */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact /> 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMysql /> {/* MySQL Workbench */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGit /> {/* GitHub */}
+        <FaNodeJs /> {/* Node.js */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

@@ -3,21 +3,20 @@ import "../Skills/Skills.css";
 import { Container, Row, Col, ProgressBar } from "react-bootstrap";
 
 const skillsData = [
-  { name: "React.js", level: 65 },
+  { name: "React.js", level: 70 },
   { name: "Node.js", level: 50 },
   { name: "HTML/CSS/JS", level: 95 },
-  { name: "MUI/Bootstrap", level: 78 },
-  { name: "MySQL", level: 90 },
+  { name: "Bootstrap/MUI", level: 65 },
+  { name: "MySQL", level: 80 },
+  { name: "Git", level: 80 },
   { name: "C++", level: 85 },
   { name: "Java", level: 48 },
-  { name: "Python", level: 45 },
   { name: "MongoDB", level: 35 },
   { name: "Android Studio", level: 50 },
   { name: "C#", level: 30 },
-  { name: "Git", level: 80 },
-  {name:"Python Django", level: 50},
-  {name:"RStudio", level:30},
-  {name:"Problem Solving", level:80},
+  { name: "Python", level: 48 },
+  {name:"RStudio", level:25},
+  {name:"Problem Solving", level:78},
   {name:"Firebase", level:30},
 ];
 

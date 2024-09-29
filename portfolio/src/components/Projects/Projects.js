@@ -42,7 +42,7 @@ function Projects() {
               imgPath={DCS}
               isBlog={false}
               title="Digital Check Sheet (2024)"
-              description="Developed a Digital Check Sheet Management System using MERN stack during an internship at RDL Technologies."
+              description="Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
             />
