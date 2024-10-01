@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Resume/CV_Salaha_SoftwareDev.pdf";
-import cpdf from "../../Assets/../Assets/cirtificates FullStack.pdf";
+import cpdf from "../../Assets/../Assets/skillCertificates.pdf";
 // import MCAMcard from "../../Assets/Resume/MCA marc Cards.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
