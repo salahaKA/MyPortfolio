@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.bb7c8b37.css",
-    "main.js": "/MyPortfolio/static/js/main.5f2d3bf3.js",
+    "main.js": "/MyPortfolio/static/js/main.e3b6ef1a.js",
     "static/js/453.1407b060.chunk.js": "/MyPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/eigo.png": "/MyPortfolio/static/media/eigo.a1c3a4a4e80a07cb4190.png",
     "static/media/skillcertificates.pdf": "/MyPortfolio/static/media/skillcertificates.4c0f7d2deeca9abc271b.pdf",
@@ -13,8 +13,8 @@
     "static/media/about-logo.png": "/MyPortfolio/static/media/about-logo.23b4b9e0c06527061361.png",
     "static/media/penGes3.png": "/MyPortfolio/static/media/penGes3.cdd343b1a46ace10053e.png",
     "static/media/weCare.png": "/MyPortfolio/static/media/weCare.e2d513cdd74761f3627f.png",
+    "static/media/Salaha_CV.pdf": "/MyPortfolio/static/media/Salaha_CV.2d3a4f65e2b37294836c.pdf",
     "static/media/wlcmGithub.png": "/MyPortfolio/static/media/wlcmGithub.db831f01fff776a327b5.png",
-    "static/media/CV_Salaha_SoftwareDev.pdf": "/MyPortfolio/static/media/CV_Salaha_SoftwareDev.cae3774bcda8f64428eb.pdf",
     "static/media/salaha.jpg": "/MyPortfolio/static/media/salaha.9d9538cc2107d25d2d32.jpg",
     "static/media/logome.jpg": "/MyPortfolio/static/media/logome.fc0f6d5880e9a0a830a4.jpg",
     "static/media/Epitom.png": "/MyPortfolio/static/media/Epitom.19bc1fd2da1d63b1a3f9.png",
@@ -22,11 +22,11 @@
     "static/media/pre.svg": "/MyPortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.bb7c8b37.css.map": "/MyPortfolio/static/css/main.bb7c8b37.css.map",
-    "main.5f2d3bf3.js.map": "/MyPortfolio/static/js/main.5f2d3bf3.js.map",
+    "main.e3b6ef1a.js.map": "/MyPortfolio/static/js/main.e3b6ef1a.js.map",
     "453.1407b060.chunk.js.map": "/MyPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb7c8b37.css",
-    "static/js/main.5f2d3bf3.js"
+    "static/js/main.e3b6ef1a.js"
   ]
 }
