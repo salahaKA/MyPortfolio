@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/salaha.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import {  FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Home2() {
@@ -36,7 +34,7 @@ function Home2() {
                 <b className="purple">Web Technologies </b> and also in areas
                 related to <b className="purple">Mobile Application</b>
               </i>
-              <br />
+              {/* <br />
               <br />
               Whenever possible, I also apply my passion for developing
               Full-Stack Application <b className="purple"> Node.js</b> and
@@ -49,7 +47,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and MUI/bootstrap</b>
-              </i>
+              </i> */}
               <br />
               <br />
               Feel free to connect with me on<b className="purple">
@@ -113,7 +111,7 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.instagram.com/__s_a_l_a_h_a__"
                   target="_blank"
@@ -122,9 +120,9 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li> */}
+              </li>
 
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://stackoverflow.com/users/20411880/salahaka"
                   target="_blank"
@@ -133,7 +131,7 @@ function Home2() {
                 >
                   <FaStackOverflow />
                 </a>
-              </li>
+              </li> */}
               {/* <li className="social-icons">
                 <a
                   href="https://www.chess.com/member/salaha_07"

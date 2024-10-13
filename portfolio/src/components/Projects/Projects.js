@@ -12,7 +12,7 @@ import penGes from "../../Assets/Projects/penGes3.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
-import MP from "../../Assets/Projects/mp.png"
+import MP from "../../Assets/Projects/mp.png";
 function Projects() {
   return (
     <Container fluid className="project-section">

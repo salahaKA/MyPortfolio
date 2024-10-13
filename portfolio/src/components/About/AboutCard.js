@@ -10,11 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">KADEEJATH SALAHA </span>
             from <span className="purple"> Kasaragod, Kerala, India.</span>
-            <br /><br />
-            Former MERN-Stack developer intern <span className="purple">@RDL Technologies Pvt Ltd</span> (03/2024 - 09/2024).
-            <br /><br />
-            Post Graduated in <span className="purple">MCA</span> (Master of Computer
-            Application) from <span className="purple">St Aloysius Mangalore</span> (AIMIT 2022-2024). 
+            <br />
+            <br />
+            Former Full-Stack developer intern{" "}
+            <span className="purple">@RDL Technologies Pvt Ltd</span> (03/2024 -
+            09/2024).
+            <br />
+            <br />
+            Post Graduated in <span className="purple">MCA</span> (Master of
+            Computer Application) from{" "}
+            <span className="purple">St Aloysius Mangalore</span> (AIMIT
+            2022-2024).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
