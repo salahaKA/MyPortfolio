@@ -51,7 +51,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Cirtificates
+            &nbsp;Download Skill Cirtificates
           </Button>
         </Row>
 

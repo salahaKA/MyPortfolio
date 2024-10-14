@@ -14,7 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { FaTools } from "react-icons/fa";
+import { FaTools, FaServicestack } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -107,6 +107,12 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <FaTools style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="#" target="_blank" rel="noreferrer">
+                <FaServicestack style={{ marginBottom: "2px" }} /> Services
               </Nav.Link>
             </Nav.Item>
 

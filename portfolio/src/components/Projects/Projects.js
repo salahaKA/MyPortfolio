@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import portfolio from "../../Assets/Projects/portfolio.png";
 import Eigo from "../../Assets/Projects/eigo.png";
-
+import eigo_shoppie from "../../Assets/Projects/Eigo1.png"
 import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes3.png";
@@ -26,6 +26,18 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eigo_shoppie}
+              isBlog={false}
+              title="Eigo Shopping Cart (2024)"
+              description="Designed and developed Eigo shopping cart website using React teachnology"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink=""
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
@@ -41,7 +53,7 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="Digital Check Sheet (2024)"
+              title="RDL DSC (2024)"
               description="Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""

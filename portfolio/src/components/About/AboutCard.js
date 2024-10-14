@@ -37,10 +37,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "“Shine like the whole universe is yours.”"{" "}
           </p>
-          <footer className="blockquote-footer">Rumi</footer>
+          <footer className="blockquote-footer">Rumi</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
