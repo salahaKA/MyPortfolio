@@ -13,6 +13,8 @@ import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 import MP from "../../Assets/Projects/mp.png";
+
+import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -57,6 +59,7 @@ function Projects() {
               description="Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
+              pdfLink={pdfDCS}
             />
           </Col>
 

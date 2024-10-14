@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function ProjectCards(props) {
   return (
@@ -31,6 +32,22 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        
+        {/* Add the download report button */}
+        {props.pdfLink && (
+          <Button
+            variant="primary" // Use the primary variant
+            href={props.pdfLink}
+            target="_blank"
+            style={{
+              marginLeft: "10px",
+              backgroundColor: "#a24dd386",
+              borderColor: "#a24dd386",
+            }} // Apply the custom purple color
+          >
+            <AiOutlineDownload /> &nbsp;Download Report
           </Button>
         )}
       </Card.Body>
