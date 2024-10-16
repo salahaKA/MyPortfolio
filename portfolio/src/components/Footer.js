@@ -14,7 +14,7 @@ function Footer() {
           <h3>Designed and Developed by Kadeejath Salaha</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SalahaKA @codestudy4</h3>
+          <h3>Copyright © {year} SalahaKA</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -31,7 +31,7 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="mailto:kadeejasalaha123@gmail.com"
+                href="mailto:codestudy475@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/__s_a_l_a_h_a__"
                 style={{ color: "white" }}
@@ -59,8 +59,8 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
-            <li className="social-icons">
+            </li> */}
+            {/* <li className="social-icons">
               <a
                 href="https://www.chess.com/member/salaha_07"
                 style={{ color: "white" }}
@@ -69,7 +69,7 @@ function Footer() {
               >
                 <FaChess />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

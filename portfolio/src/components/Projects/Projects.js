@@ -36,7 +36,7 @@ function Projects() {
               title="Eigo Shopping Cart (2024)"
               description="Designed and developed Eigo shopping cart website using React teachnology"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink=""
+              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
 

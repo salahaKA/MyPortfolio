@@ -103,7 +103,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="mailto:codestudy475@gmail.com"
+                  href="mailto:kadeejasalaha123@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -111,7 +111,7 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/__s_a_l_a_h_a__"
                   target="_blank"
@@ -120,7 +120,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
 
               {/* <li className="social-icons">
                 <a
