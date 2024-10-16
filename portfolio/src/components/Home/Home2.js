@@ -16,16 +16,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello! I'm Kadeejath Salaha, a passionate Software Developer with
-              a strong foundation in front-end and back-end technologies. With a
-              Master’s in Computer Application and hands-on experience through
+              Hello! I'm Kadeejath Salaha, a passionate Software Developer With hands-on experience through
               internships and projects,
               {/* I'm
               committed to building impactful web applications. */}
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and MySQL. </b>
+                <b className="purple"> OOPs, C++, Javascript and MySQL. </b>
               </i>
               <br />
               <br />

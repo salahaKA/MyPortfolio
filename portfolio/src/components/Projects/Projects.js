@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="RDL DSC (2024 MCA final Internship project)"
+              title="RDL DSC (MCA final Internship project - 2024)"
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
@@ -67,7 +67,7 @@ function Projects() {
             <ProjectCard
               imgPath={BE}
               isBlog={false}
-              title="Bharath Enterprises (2024 AIMIT BCP project)"
+              title="Bharath Enterprises (AIMIT BCP - 2024)"
               description="Built an E-commerce hardware store web application with Django for managing online sales and payments with SIG team."
               ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink=""
@@ -78,7 +78,7 @@ function Projects() {
             <ProjectCard
               imgPath={penGes}
               isBlog={false}
-              title="penGes (2023 AIMIT mini project)"
+              title="penGes (AIMIT mini - 2023)"
               description="Created an Android notes application using Java and Firebase for efficient note-taking and organization."
               ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
@@ -100,7 +100,7 @@ function Projects() {
             <ProjectCard
               imgPath={WeCare}
               isBlog={false}
-              title="We Care (BSC final project - 2022)"
+              title="We Care (BSC final - 2022)"
               description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
               ghLink="https://github.com/salahaKA/wecare"
               demoLink=""
