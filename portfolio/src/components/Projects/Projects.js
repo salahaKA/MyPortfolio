@@ -34,7 +34,7 @@ function Projects() {
               imgPath={eigo_shoppie}
               isBlog={false}
               title="Eigo Shopping Cart (2024)"
-              description="Designed and developed Eigo shopping cart website using React teachnology"
+              description="Designed responsive shopping cart website using React technology for Eigo"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
@@ -45,7 +45,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Personal Portfolio Website (2024)"
-              description="Designed and developed a responsive portfolio website using React, CSS and bootstrap to showcase projects and professional skills."
+              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
               ghLink="https://github.com/salahaKA/MyPortfolio.git"
               demoLink="https://salahaka.github.io/MyPortfolio/"
             />
@@ -55,8 +55,8 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="RDL DSC (2024)"
-              description="Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
+              title="RDL DSC (2024 MCA final Internship project)"
+              description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
               pdfLink={pdfDCS}
@@ -67,8 +67,8 @@ function Projects() {
             <ProjectCard
               imgPath={BE}
               isBlog={false}
-              title="Bharath Enterprises (2024)"
-              description="Built an E-commerce hardware store web application with Django for managing online sales and payments."
+              title="Bharath Enterprises (2024 AIMIT BCP project)"
+              description="Built an E-commerce hardware store web application with Django for managing online sales and payments with SIG team."
               ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink=""
             />
@@ -78,7 +78,7 @@ function Projects() {
             <ProjectCard
               imgPath={penGes}
               isBlog={false}
-              title="penGes (2023)"
+              title="penGes (2023 AIMIT mini project)"
               description="Created an Android notes application using Java and Firebase for efficient note-taking and organization."
               ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
@@ -89,7 +89,7 @@ function Projects() {
             <ProjectCard
               imgPath={Epitom23}
               isBlog={false}
-              title="Diabetes Prediction Using Different Machine Learning Algorithm"
+              title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
               description="AIMIT National level Tech fest Epitome23 research based project done with SIG team"
               ghLink=""
               demoLink=""
@@ -100,23 +100,23 @@ function Projects() {
             <ProjectCard
               imgPath={WeCare}
               isBlog={false}
-              title="We Care"
+              title="We Care (BSC final project - 2022)"
               description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
               ghLink="https://github.com/salahaKA/wecare"
               demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wlcmGit}
               isBlog={false}
-              title="Salahaka github welcom page"
+              title="Salahaka github welcome page"
               description="My Github about page portfolio"
               ghLink="https://github.com/salahaKA"
               demoLink="https://salahaka.github.io/salahaKA/"
             />
-          </Col>
+          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -144,7 +144,7 @@ function Projects() {
               imgPath={MP}
               isBlog={false}
               title="Play Music"
-              description="Web design"
+              description="Web design 2022"
               ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
             />
