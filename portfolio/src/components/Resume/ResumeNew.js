@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Resume/CV_Salaha__.pdf";
+import pdf from "../../Assets/../Assets/Resume/CV_Salaha__MCA.pdf";
 import cpdf from "../../Assets/../Assets/skillcertificates.pdf";
 // import MCAMcard from "../../Assets/Resume/MCA marc Cards.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
