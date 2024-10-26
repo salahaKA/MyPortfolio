@@ -74,7 +74,7 @@ function Contact() {
 
     // Check for errors before showing success message
     if (!errors.name && !errors.email && !errors.subject && !errors.password) {
-      alert("Thank you for your submission!🤗"); // Show alert if no errors
+      alert("Thank you for your submission!🤗 Please note that this is a test form and no data is recorded."); // Show alert if no errors
       // You can also implement the actual sending logic here
       handleClear();
     } else {
