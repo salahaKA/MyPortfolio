@@ -5,6 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import Contact from "../Contact/Contact";
 
 function Home2() {
   return (
@@ -141,6 +142,12 @@ function Home2() {
                 </a>
               </li> */}
             </ul>
+          </Col>
+        </Row>
+        {/* Adding the Contact Component here */}
+        <Row>
+          <Col md={12}>
+            <Contact />
           </Col>
         </Row>
       </Container>
