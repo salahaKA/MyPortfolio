@@ -63,10 +63,38 @@ function Contact() {
     setErrors({});
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    // Check if all fields are empty
+    if (!formValues.name && !formValues.email && !formValues.subject && !formValues.password) {
+      alert("Please fill in all fields."); // Show alert if all fields are empty
+      return;
+    }
+
+    // Check for errors before showing success message
+    if (!errors.name && !errors.email && !errors.subject && !errors.password) {
+      alert("Thank you for your submission!🤗"); // Show alert if no errors
+      // You can also implement the actual sending logic here
+      handleClear();
+    } else {
+      alert("Please fix the errors in the form.");
+    }
+  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault(); // Prevent default form submission
+  //   if (!errors.name && !errors.email && !errors.subject && !errors.password) {
+  //     alert("Message sent successfully!"); // Show alert if no errors
+  //     // You can also implement the actual sending logic here
+  //   } else {
+  //     alert("Please fix the errors in the form.");
+  //   }
+  // };
+
   return (
     <Container className="contact-container">
       <h2 className="contact-title">Contact Me</h2>
-      <Form className="contact-form" noValidate>
+      <Form className="contact-form" noValidate onSubmit={handleSubmit}>
         <Row>
           <Col md={6}>
             <Form.Group controlId="formName">
@@ -128,7 +156,7 @@ function Contact() {
         </Form.Group>
         <Row className="mt-3">
           <Col md={6}>
-            <Button variant="primary" className="contact-button w-100">
+            <Button type="submit" variant="primary" className="contact-button w-100">
               SEND Message
             </Button>
           </Col>
