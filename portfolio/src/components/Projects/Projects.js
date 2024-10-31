@@ -15,6 +15,7 @@ import Epitom23 from "../../Assets/Projects/Epitom.png";
 import MP from "../../Assets/Projects/mp.png";
 
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
+import SACAIM from "../../Assets/Projects/sacaim'24.pdf"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -90,9 +91,11 @@ function Projects() {
               imgPath={Epitom23}
               isBlog={false}
               title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
-              description="AIMIT National level Tech fest Epitome23 research based project done with SIG team"
+              description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
+IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink=""
               demoLink=""
+              pdfLink={SACAIM}
             />
           </Col>
 
@@ -129,24 +132,25 @@ function Projects() {
             />
           </Col> */}
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Eigo}
-              isBlog={false}
-              title="Eigo"
-              description="Demo shopping website frontend design"
-              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
-              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MP}
               isBlog={false}
               title="Play Music"
-              description="Web design 2022"
+              description="Web Design 2022"
               ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Eigo}
+              isBlog={false}
+              title="UI/UX 2021"
+              description="Demo shopping website frontend design home"
+              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
+              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
             />
           </Col>
         </Row>
