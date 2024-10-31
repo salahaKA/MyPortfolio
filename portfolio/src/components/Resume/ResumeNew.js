@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Resume/CV_Salaha_fresher.pdf";
+import CV from "../../Assets/Resume/CV_Salaha_fresher.pdf";
 import cpdf from "../../Assets/Resume/skillcertificates.pdf.pdf";
 // import MCAMcard from "../../Assets/Resume/MCA marc Cards.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -25,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={CV}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
