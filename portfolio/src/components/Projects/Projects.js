@@ -2,20 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
 import portfolio from "../../Assets/Projects/portfolio.png";
 import Eigo from "../../Assets/Projects/eigo.png";
-import eigo_shoppie from "../../Assets/Projects/Eigo1.png"
-import wlcmGit from "../../Assets/Projects/wlcmGithub.png";
+import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes3.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 import MP from "../../Assets/Projects/mp.png";
+import todo from "../../Assets/Projects/todoo.png";
 
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
-import SACAIM from "../../Assets/Projects/sacaim'24.pdf"
+import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -29,29 +28,6 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eigo_shoppie}
-              isBlog={false}
-              title="Eigo Shopping Cart (2024)"
-              description="Designed responsive shopping cart website using React technology for Eigo"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Personal Portfolio Website (2024)"
-              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
-              ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              demoLink="https://salahaka.github.io/MyPortfolio/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -61,6 +37,38 @@ function Projects() {
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink=""
               pdfLink={pdfDCS}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eigo_shoppie}
+              isBlog={false}
+              title="Eigo Shopping Cart (2024)"
+              description="Designed responsive shopping cart website using React technology for Eigo"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="To-do List (2024)"
+              description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
+              ghLink="https://github.com/salahaKA/todolist_app.git"
+              demoLink="https://salahaka.github.io/todolist_app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Personal Portfolio Website (2024)"
+              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
+              // ghLink="https://github.com/salahaKA/MyPortfolio.git"
+              // demoLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
 
@@ -80,7 +88,7 @@ function Projects() {
               imgPath={penGes}
               isBlog={false}
               title="penGes (AIMIT mini - 2023)"
-              description="Created an Android notes application using Java and Firebase for efficient note-taking and organization."
+              description="Created an Android notes application using Java, XML and Firebase for efficient note-taking and organization."
               ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
             />
@@ -110,29 +118,6 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={wlcmGit}
-              isBlog={false}
-              title="Salahaka github welcome page"
-              description="My Github about page portfolio"
-              ghLink="https://github.com/salahaKA"
-              demoLink="https://salahaka.github.io/salahaKA/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Cricket score dashboard"
-              description=""
-              ghLink="https://github.com/salahaKA"
-              demoLink="https://salahaka.github.io/salahaKA/"
-            />
-          </Col> */}
-
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MP}
@@ -147,7 +132,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             <ProjectCard
               imgPath={Eigo}
               isBlog={false}
-              title="UI/UX 2021"
+              title="UI/UX"
               description="Demo shopping website frontend design home"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
               demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
