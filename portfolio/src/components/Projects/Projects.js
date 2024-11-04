@@ -46,7 +46,7 @@ function Projects() {
               imgPath={eigo_shoppie}
               isBlog={false}
               title="Eigo Shopping Cart (2024)"
-              description="Designed responsive shopping cart website using React technology for Eigo"
+              description="Designed responsive shopping cart website using React technology"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
