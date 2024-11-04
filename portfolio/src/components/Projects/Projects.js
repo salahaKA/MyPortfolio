@@ -15,6 +15,7 @@ import todo from "../../Assets/Projects/todoo.png";
 
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
+import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -63,10 +64,6 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             />
           </Col>
 
-          
-
-          
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BE}
@@ -89,7 +86,6 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             />
           </Col>
 
-        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={WeCare}
@@ -98,6 +94,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="Palliative care Magement sysytem using HTML, CSS, JS, bootstrap, MySQl and Python flask technology"
               ghLink="https://github.com/salahaKA/wecare"
               demoLink=""
+              pdfLink={pdfWecare}
             />
           </Col>
           <Col md={4} className="project-card">
