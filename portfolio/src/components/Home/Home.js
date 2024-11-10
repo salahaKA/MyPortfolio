@@ -28,7 +28,7 @@ function Home() {
               </h5>
               <br />
               <h4 className="heading-namee" style={{ fontSize: "1rem" }}>
-                Graduated In BSC Computer Science (2022)🎓
+                Graduated In BSC Computer Science (2022)
               </h4>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

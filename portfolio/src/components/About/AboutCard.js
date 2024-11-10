@@ -13,12 +13,13 @@ function AboutCard() {
             <br />
             <br />
             Former Full-Stack developer intern{" "}
-            <span className="purple">@RDL Technologies Pvt Ltd</span> (03/2024 -
+            <a href="https://www.rdltech.in" style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer" className="purple">
+  @RDL Technologies Pvt Ltd
+</a> (03/2024 -
             09/2024).
             <br />
             <br />
-            Post Graduated in <span className="purple">MCA</span> (Master of
-            Computer Application) from{" "}
+            Post Graduated in <span className="purple">MCA</span>  from{" "}
             <span className="purple">St Aloysius Mangalore</span> (AIMIT
             2022-2024).
             <br />
@@ -27,11 +28,14 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Chess
+              <ImPointRight /> Crafting
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
+              <ImPointRight /> Designing
+            </li> */}
+            {/* <li className="about-activity">
               <ImPointRight /> Playing Badminton
-            </li>
+            </li> */}
             <li className="about-activity">
               <ImPointRight /> Travel
             </li>
