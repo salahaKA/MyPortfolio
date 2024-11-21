@@ -34,7 +34,7 @@ function AboutCard() {
             <div className="tab-content">
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
-                  25/03/2024 - 05/11/2024
+                  25/03/2024 - 05/09/2024
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   Full-Stack Developer Intern
