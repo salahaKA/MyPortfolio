@@ -43,12 +43,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eigo_shoppie}
+              imgPath={BE}
               isBlog={false}
-              title="Eigo Shopping Cart (2024)"
-              description="Shopping cart static website using React technology"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              title="Bharath Enterprises (AIMIT BCP - 2024)"
+              description="An E-commerce hardware store web application to manage online sales and
+ payments built with the AIMIT SIG team using Python Django technology."
+              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              demoLink=""
             />
           </Col>
 
@@ -67,15 +68,16 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={BE}
+              imgPath={eigo_shoppie}
               isBlog={false}
-              title="Bharath Enterprises (AIMIT BCP - 2024)"
-              description="An E-commerce hardware store web application to manage online sales and
- payments built with the AIMIT SIG team using Python Django technology."
-              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
-              demoLink=""
+              title="Eigo Shopping Cart (2024)"
+              description="Shopping cart website using React technology"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
