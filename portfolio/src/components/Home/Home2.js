@@ -31,7 +31,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies </b> and also in areas
-                related to <b className="purple">Mobile Application</b>
+                related to <b className="purple">Mobile Applications</b>
               </i>
               {/* <br />
               <br />
@@ -49,11 +49,8 @@ function Home2() {
               </i> */}
               <br />
               <br />
-              Feel free to connect with me on<b className="purple">
-                {" "}
-                LinkedIn
-              </b>{" "}
-              or check out my <b className="purple"> GitHub</b>
+              Feel free to connect with me on LinkedIn
+              or check out my  GitHub
               to see more of my work.
             </p>
           </Col>
@@ -63,12 +60,14 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <br></br>
+        <hr></hr>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

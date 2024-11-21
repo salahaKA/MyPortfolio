@@ -22,7 +22,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Basic Project <strong className="purple">Works </strong>
+          Basic Project <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are the basic projects I've worked on during my academic days and

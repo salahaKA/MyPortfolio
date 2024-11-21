@@ -23,12 +23,12 @@ function Home() {
                 I'M
                 <strong className="main-name"> KADEEJATH SALAHA</strong>
               </h1>
-              <h5 className="heading-name" style={{ fontSize: "1.5rem" }}>
-                Post Graduated In MCA (2024)🎓
-              </h5>
+              {/* <h5 className="heading-name" style={{ fontSize: "1.5rem" }}>
+                From India
+              </h5> */}
               <br />
               <h4 className="heading-namee" style={{ fontSize: "1rem" }}>
-                Graduated In BSC Computer Science (2022)
+                From Kasaragod, Kerala, India
               </h4>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
