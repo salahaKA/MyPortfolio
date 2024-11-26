@@ -36,7 +36,7 @@ function Projects() {
               title="RDL DSC (MCA final Internship project - 2024)"
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
-              demoLink=""
+              demoLink="https://youtu.be/H3lzv1NUGa0?si=soPo3dUJ-bvXlLoY"
               pdfLink={pdfDCS}
             />
           </Col>
@@ -109,7 +109,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Personal Portfolio Website (2024)"
               description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
               // ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              // demoLink="https://salahaka.github.io/MyPortfolio/"
+              demoLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
           <Col md={4} className="project-card">

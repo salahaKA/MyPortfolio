@@ -3,55 +3,52 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import { AiOutlineDownload } from "react-icons/ai";
-
+import { AiOutlineFileText } from "react-icons/ai";
+import "./Project.css";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify", fontSize: "0.9rem" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+        <div className="project-buttons">
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="outline-dark"
+              href={props.demoLink}
+              target="_blank"
+              className="icon-button"
+            >
+              <CgWebsite />
+            </Button>
+          )}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+          {props.pdfLink && (
+            <Button
+              variant="outline-dark"
+              href={props.pdfLink}
+              target="_blank"
+              className="icon-button"
+            >
+              <AiOutlineFileText />
+            </Button>
+          )}
 
-        {!props.isBlog && props.demoLink && (
           <Button
-            variant="primary"
-            href={props.demoLink}
+            variant="outline-dark"
+            href={props.ghLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            className="icon-button"
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <BsGithub />
           </Button>
-        )}
-        
-        {/* Add the download report button */}
-        {props.pdfLink && (
-          <Button
-            variant="primary" // Use the primary variant
-            href={props.pdfLink}
-            target="_blank"
-            style={{
-              marginLeft: "10px",
-              backgroundColor: "#a24dd386",
-              borderColor: "#a24dd386",
-            }} // Apply the custom purple color
-          >
-            <AiOutlineDownload /> &nbsp;Download Report
-          </Button>
-        )}
+        </div>
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;
