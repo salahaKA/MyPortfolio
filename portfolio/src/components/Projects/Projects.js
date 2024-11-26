@@ -61,7 +61,7 @@ function Projects() {
               description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
 IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
-              demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
+              demoLink=""
               pdfLink={SACAIM}
               websiteLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
             />
@@ -78,8 +78,6 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -148,7 +146,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="Demo shopping website home page"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
               demoLink=""
-            websiteLink="https://salahaka.github.io/Eigo_shoppingCart/"
+              websiteLink="https://salahaka.github.io/Eigo_shoppingCart/"
             />
           </Col>
         </Row>
