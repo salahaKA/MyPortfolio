@@ -63,6 +63,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
               demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
               pdfLink={SACAIM}
+              websiteLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
             />
           </Col>
 
@@ -73,7 +74,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Eigo Shopping Cart (2024)"
               description="Shopping cart website using React technology"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              // demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
 
@@ -87,6 +89,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="Android fullstack notes application using Java, XML and Firebase for efficient note-taking and organization."
               ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
+              websiteLink=""
             />
           </Col>
 
@@ -100,6 +103,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink="https://github.com/salahaKA/wecare"
               demoLink=""
               pdfLink={pdfWecare}
+              websiteLink=""
             />
           </Col>
           <Col md={4} className="project-card">
@@ -109,7 +113,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Personal Portfolio Website (2024)"
               description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
               // ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              demoLink="https://salahaka.github.io/MyPortfolio/"
+              demoLink=""
+              websiteLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -119,7 +124,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="To-do List (2024)"
               description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
               ghLink="https://github.com/salahaKA/todolist_app.git"
-              demoLink="https://salahaka.github.io/todolist_app/"
+              // demoLink="https://salahaka.github.io/todolist_app/"
+              websiteLink="https://salahaka.github.io/todolist_app/"
             />
           </Col>
 
@@ -130,7 +136,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Play Music"
               description="Web Design 2022"
               ghLink="https://github.com/salahaKA/musicplayer.git"
-              demoLink="https://salahaka.github.io/musicplayer/"
+              demoLink=""
+              websiteLink="https://salahaka.github.io/musicplayer/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -140,7 +147,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="UI/UX"
               description="Demo shopping website home page"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
-              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
+              demoLink=""
+            websiteLink="https://salahaka.github.io/Eigo_shoppingCart/"
             />
           </Col>
         </Row>
