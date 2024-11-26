@@ -1,20 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineFileText } from "react-icons/ai";
 import "./Project.css";
-
 function ProjectCards(props) {
-  const [showOverlay, setShowOverlay] = useState(false);
-  // Toggle overlay visibility on click/touch for mobile
-  const handleImageClick = () => {
-    if (window.innerWidth <= 768) {  // Check if it's a mobile device
-      setShowOverlay(!showOverlay);  // Toggle the overlay visibility
-    }
-  };
-
   return (
     <Card className="project-card-view">
     {/* Wrapping the image with a link for the website */}
@@ -24,15 +15,12 @@ function ProjectCards(props) {
         target="_blank"
         rel="noopener noreferrer"
         className="project-image-link"
-        onClick={handleImageClick}
       >
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
         {/* Adding an optional overlay text */}
-        {(showOverlay || window.innerWidth > 768) && (
         <div className="image-overlay">
           <span>View Website</span>
         </div>
-        )}
       </a>
     ) : (
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
