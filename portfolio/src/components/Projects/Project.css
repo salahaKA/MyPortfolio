@@ -1,3 +1,8 @@
+.icon-button {
+  margin: 0 2px; /* Adds horizontal spacing between buttons */
+}
+
+
 .project-card-view {
   position: relative;
   overflow: hidden;

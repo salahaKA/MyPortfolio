@@ -36,20 +36,20 @@ function Projects() {
               title="RDL DSC (MCA final Internship project - 2024)"
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
-              demoLink="https://youtu.be/H3lzv1NUGa0?si=soPo3dUJ-bvXlLoY"
+              demoLink=""
               pdfLink={pdfDCS}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={BE}
+              imgPath={eigo_shoppie}
               isBlog={false}
-              title="Bharath Enterprises (AIMIT BCP - 2024)"
-              description="An E-commerce hardware store web application to manage online sales and
- payments built with the AIMIT SIG team using Python Django technology."
-              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
-              demoLink=""
+              title="Eigo Shopping Cart (2024)"
+              description="Shopping cart website using React technology"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              websiteLink=""
             />
           </Col>
 
@@ -61,23 +61,25 @@ function Projects() {
               description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
 IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
-              demoLink=""
+              demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
               pdfLink={SACAIM}
-              websiteLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
+              websiteLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eigo_shoppie}
+              imgPath={BE}
               isBlog={false}
-              title="Eigo Shopping Cart (2024)"
-              description="Shopping cart website using React technology"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              // demoLink="https://salahaka.github.io/eigo_shoppingweb/"
-              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
+              title="Bharath Enterprises (AIMIT BCP - 2024)"
+              description="An E-commerce hardware store web application to manage online sales and
+ payments built with the AIMIT SIG team using Python Django technology."
+              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              demoLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
             />
           </Col>
+
+          
 
           
 
@@ -101,8 +103,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Personal Portfolio Website (2024)"
               description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
               // ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              demoLink=""
-              websiteLink="https://salahaka.github.io/MyPortfolio/"
+              demoLink="https://salahaka.github.io/MyPortfolio/"
+              websiteLink=""
             />
           </Col>
           <Col md={4} className="project-card">
@@ -112,8 +114,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="To-do List (2024)"
               description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
               ghLink="https://github.com/salahaKA/todolist_app.git"
-              // demoLink="https://salahaka.github.io/todolist_app/"
-              websiteLink="https://salahaka.github.io/todolist_app/"
+              demoLink="https://salahaka.github.io/todolist_app/"
+              websiteLink=""
             />
           </Col>
 
@@ -124,8 +126,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="Play Music"
               description="Web Design 2022"
               ghLink="https://github.com/salahaKA/musicplayer.git"
-              demoLink=""
-              websiteLink="https://salahaka.github.io/musicplayer/"
+              demoLink="https://salahaka.github.io/musicplayer/"
+              websiteLink=""
             />
           </Col>
           <Col md={4} className="project-card">
@@ -135,8 +137,8 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               title="UI/UX"
               description="Demo shopping website home page"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
-              demoLink=""
-              websiteLink="https://salahaka.github.io/Eigo_shoppingCart/"
+              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
+              websiteLink=""
             />
           </Col>
 
