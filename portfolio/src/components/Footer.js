@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaChess } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Footer() {

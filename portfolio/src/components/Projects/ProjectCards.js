@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 // import { CgWebsite } from "react-icons/cg";
 // import { BsGithub } from "react-icons/bs";
-import { AiOutlineFileText, AiOutlineLink } from "react-icons/ai";
+import { AiOutlineFileText } from "react-icons/ai";
 import {BiLinkExternal} from "react-icons/bi"
 import "./Project.css";
 function ProjectCards(props) {
