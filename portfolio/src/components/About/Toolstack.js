@@ -11,6 +11,7 @@ import {
   SiXampp,
   SiMicrosoft,
   SiReact,
+  SiNetlify,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
@@ -37,6 +38,9 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
       </Col>
 
@@ -55,6 +59,8 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp />
       </Col>
+      
+      
 
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase/> 

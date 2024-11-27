@@ -45,7 +45,7 @@ function Projects() {
             <ProjectCard
               imgPath={eigo_shoppie}
               isBlog={false}
-              title="Eigo Shopping Cart (2024)"
+              title="Eigo Shopping Cart (Present)"
               description="Shopping cart website using React technology"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink="https://salahaka.github.io/eigo_shoppingweb/"
