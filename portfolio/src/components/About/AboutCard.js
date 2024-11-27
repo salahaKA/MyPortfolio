@@ -65,18 +65,26 @@ function AboutCard() {
           >
             <div className="tab-content">
               <div className="tab-item">
+              <span style={{ color: "gray", fontSize: "14px" }}>
+              2022-2024
+                </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   Master of Computer Application
                 </h5>
-                <p>St Aloysius Mangalore (2022-2024)</p>
+                <p>St Aloysius Mangalore </p>
               </div>
               <hr style={{ borderColor: "#444" }} />
               <div className="tab-item">
+              <span style={{ color: "gray", fontSize: "14px" }}>
+              2019-2022
+                </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   BSC Computer Science
                 </h5>
-                <p>Kannur University (2019-2022)</p>
+                <p>Kannur University </p>
               </div>
+
+              
             </div>
           </Tab>
 
@@ -102,6 +110,7 @@ function AboutCard() {
                     new programming languages.
                   </p>
                 </li>
+                {/* <hr style={{ borderColor: "#444" }} /> */}
                 {/* <li style={{ marginBottom: "15px" }}>
         <h6 style={{ color: "#9b59b6", fontWeight: "bold", marginBottom: "5px" }}>
           Writing
@@ -125,6 +134,7 @@ function AboutCard() {
                     cultures.
                   </p>
                 </li>
+                {/* <hr style={{ borderColor: "#444" }} /> */}
 
                 <li style={{ marginBottom: "15px" }}>
                   <h6
@@ -141,6 +151,7 @@ function AboutCard() {
                     different crafts.
                   </p>
                 </li>
+                {/* <hr style={{ borderColor: "#444" }} /> */}
                 <li style={{ marginBottom: "15px" }}>
                   <h6
                     style={{
@@ -156,6 +167,7 @@ function AboutCard() {
                     badminton, chess for fun and relaxation.
                   </p>
                 </li>
+                
                 {/* <li style={{ marginBottom: "15px" }}>
         <h6 style={{ color: "#9b59b6", fontWeight: "bold", marginBottom: "5px" }}>
           Community Involvement

@@ -3,28 +3,29 @@ import "../Skills/Skills.css";
 import { Container, Row, Col, ProgressBar } from "react-bootstrap";
 
 const skillsData = [
-  { name: "React.js", level: 75  },
+  { name: "React.js", level: 80  },
   { name: "HTML/CSS/JS", level: 90 },
+  { name: "Bootstrap/MUI/Tailwind CSS", level: 60 },
   { name: "Git", level: 80 },
   { name: "MySQL", level: 80 },
-  { name: "Bootstrap/MUI", level: 60 },
-  { name: "Node.js", level: 60 },
+  { name: "JSON", level: 80 },
+  { name: "Node.js/Express", level: 60 },
   { name: "Problem Solving", level: 80 },
+  { name: "Communication", level: 80 },
   { name: "OOPs", level: 80 },
   { name: "C++", level: 75 },
-  { name: "C#", level: 55 },
   { name: "Java", level: 55 },
   { name: "Android Studio", level: 60 },
-  { name: "Python", level: 50 },
   { name: "MongoDB", level: 45 },
   { name: "Firebase", level: 30 },
+  { name: "Python", level: 50 },
 ];
 
 function Skills() {
   return (
     <div className="skills-container">
       <Container>
-        <h4 className="skills-title"></h4>
+        <h4 className="skills-title">-</h4>
         <Row className="skills-grid">
           {skillsData.map((skill, index) => (
             <Col xs={12} sm={6} key={index} className="skill-item">
