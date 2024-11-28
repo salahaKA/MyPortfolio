@@ -2,10 +2,11 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 // import { CgWebsite } from "react-icons/cg";
-// import { BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { AiOutlineFileText } from "react-icons/ai";
 import {BiLinkExternal} from "react-icons/bi"
 import "./Project.css";
+
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
@@ -34,7 +35,7 @@ function ProjectCards(props) {
       <div className="project-buttons">
         {!props.isBlog && props.demoLink && (
           <Button
-            // variant="outline-dark"
+            variant="outline-dark"
             href={props.demoLink}
             target="_blank"
             className="icon-button"
@@ -42,9 +43,18 @@ function ProjectCards(props) {
             <BiLinkExternal />
           </Button>
         )}
+        
+        <Button
+          variant="outline-dark"
+          href={props.ghLink}
+          target="_blank"
+          className="icon-button"
+        >
+          <BsGithub />
+        </Button>
         {props.pdfLink && (
           <Button
-            // variant="outline-dark"
+            variant="outline-dark"
             href={props.pdfLink}
             target="_blank"
             className="icon-button"
@@ -52,14 +62,6 @@ function ProjectCards(props) {
             <AiOutlineFileText />
           </Button>
         )}
-        {/* <Button
-          // variant="outline-dark"
-          href={props.ghLink}
-          target="_blank"
-          className="icon-button"
-        >
-          <BsGithub />
-        </Button> */}
       </div>
     </Card.Body>
   </Card>

@@ -116,11 +116,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link href="#" target="_blank" rel="noreferrer">
                 <FaServicestack style={{ marginBottom: "2px" }} /> Services
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
