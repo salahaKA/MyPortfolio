@@ -96,17 +96,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               websiteLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Personal Portfolio Website (2024)"
-              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
-              // ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              demoLink="https://salahaka.github.io/MyPortfolio/"
-              websiteLink=""
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
@@ -138,6 +128,17 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="Demo shopping website home page"
               ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
               demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
+              websiteLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Personal Portfolio Website"
+              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
+              // ghLink="https://github.com/salahaKA/MyPortfolio.git"
+              // demoLink="https://salahaka.github.io/MyPortfolio/"
               websiteLink=""
             />
           </Col>
