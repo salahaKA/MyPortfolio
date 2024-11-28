@@ -29,8 +29,6 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={eigo_shoppie}
@@ -75,13 +73,9 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="An E-commerce hardware store web application to manage online sales and
  payments built with the AIMIT SIG team using Python Django technology."
               ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
-              demoLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              demoLink=""
             />
           </Col>
-
-          
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -96,7 +90,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               websiteLink=""
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}

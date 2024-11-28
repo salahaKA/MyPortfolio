@@ -65,8 +65,8 @@ function AboutCard() {
           >
             <div className="tab-content">
               <div className="tab-item">
-              <span style={{ color: "gray", fontSize: "14px" }}>
-              2022-2024
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  2022-2024
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   Master of Computer Application
@@ -75,8 +75,8 @@ function AboutCard() {
               </div>
               <hr style={{ borderColor: "#444" }} />
               <div className="tab-item">
-              <span style={{ color: "gray", fontSize: "14px" }}>
-              2019-2022
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  2019-2022
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   BSC Computer Science
@@ -84,7 +84,16 @@ function AboutCard() {
                 <p>Kannur University </p>
               </div>
 
-              
+              <hr style={{ borderColor: "#444" }} />
+              <div className="tab-item">
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  2017-2019
+                </span>
+                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
+                  HSE Science
+                </h5>
+                <p>SAT HSS Manjeshwar </p>
+              </div>
             </div>
           </Tab>
 
@@ -110,15 +119,7 @@ function AboutCard() {
                     new programming languages.
                   </p>
                 </li>
-                {/* <hr style={{ borderColor: "#444" }} /> */}
-                {/* <li style={{ marginBottom: "15px" }}>
-        <h6 style={{ color: "#9b59b6", fontWeight: "bold", marginBottom: "5px" }}>
-          Writing
-        </h6>
-        <p style={{ color: "white", margin: "0" }}>
-          Enjoy writing technical articles and blog posts about emerging technologies.
-        </p>
-      </li> */}
+                
                 <li style={{ marginBottom: "15px" }}>
                   <h6
                     style={{
@@ -167,15 +168,6 @@ function AboutCard() {
                     badminton, chess for fun and relaxation.
                   </p>
                 </li>
-                
-                {/* <li style={{ marginBottom: "15px" }}>
-        <h6 style={{ color: "#9b59b6", fontWeight: "bold", marginBottom: "5px" }}>
-          Community Involvement
-        </h6>
-        <p style={{ color: "white", margin: "0" }}>
-          Active in volunteering and participating in community events and initiatives.
-        </p>
-      </li> */}
               </ul>
             </div>
           </Tab>
@@ -186,64 +178,3 @@ function AboutCard() {
 }
 
 export default AboutCard;
-
-// import React from "react";
-// import Card from "react-bootstrap/Card";
-// import { ImPointRight } from "react-icons/im";
-
-// function AboutCard() {
-//   return (
-//     <Card className="quote-card-view">
-//       <Card.Body>
-//         <blockquote className="blockquote mb-0">
-//           <p style={{ textAlign: "justify" }}>
-//             Hi Everyone, I am <span className="purple">SALAHA </span>
-//             from Kasaragod, Kerala, India.
-//             <br />
-//             <br />
-//             Former Full-Stack developer intern{" "}
-//             <a
-//               href="https://www.rdltech.in"
-//               style={{ textDecoration: "none" }}
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="purple"
-//             >
-//               @RDL Technologies Pvt Ltd
-//             </a>{" "}
-//             (03/2024 - 09/2024).
-//             <br />
-//             <br />
-//             Post Graduated in <span className="purple">MCA</span> from{" "}
-//             <span className="purple">St Aloysius Mangalore</span> (AIMIT
-//             2022-2024).
-//             <br />
-//             <br />
-//             Apart from coding, some other activities that I love to do!
-//           </p>
-//           <ul>
-//             <li className="about-activity">
-//               <ImPointRight /> Crafting
-//             </li>
-//             {/* <li className="about-activity">
-//               <ImPointRight /> Designing
-//             </li> */}
-//             {/* <li className="about-activity">
-//               <ImPointRight /> Playing Badminton
-//             </li> */}
-//             <li className="about-activity">
-//               <ImPointRight /> Travel
-//             </li>
-//           </ul>
-
-//           {/* <p style={{ color: "rgb(155 126 172)" }}>
-//             "“Shine like the whole universe is yours.”"{" "}
-//           </p>
-//           <footer className="blockquote-footer">Rumi</footer> */}
-//         </blockquote>
-//       </Card.Body>
-//     </Card>
-//   );
-// }
-
-// export default AboutCard;
