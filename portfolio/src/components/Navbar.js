@@ -14,7 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { FaTools, FaServicestack } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
