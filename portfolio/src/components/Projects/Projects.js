@@ -29,17 +29,7 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={DCS}
-              isBlog={false}
-              title="RDL DSC (MCA final Internship project - 2024)"
-              description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
-              ghLink="https://github.com/salahaKA/checklist.git"
-              demoLink=""
-              pdfLink={pdfDCS}
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -52,7 +42,17 @@ function Projects() {
               websiteLink=""
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DCS}
+              isBlog={false}
+              title="RDL DSC (MCA final Internship project - 2024)"
+              description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
+              ghLink="https://github.com/salahaKA/checklist.git"
+              demoLink="https://youtu.be/i7x2Yazs_3E"
+              pdfLink={pdfDCS}
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Epitom23}
