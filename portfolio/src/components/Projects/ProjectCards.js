@@ -35,7 +35,7 @@ function ProjectCards(props) {
       <div className="project-buttons">
         {!props.isBlog && props.demoLink && (
           <Button
-            variant="outline-dark"
+            // variant="outline-dark"
             href={props.demoLink}
             target="_blank"
             className="icon-button"
