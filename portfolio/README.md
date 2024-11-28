@@ -1,3 +1,5 @@
+Personal portfolio website using React to showcase my skills and projects, highlighting my ability to create visually appealing, responsive designs. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

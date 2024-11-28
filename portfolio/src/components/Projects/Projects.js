@@ -34,7 +34,7 @@ function Projects() {
               imgPath={eigo_shoppie}
               isBlog={false}
               title="Eigo Shopping Cart (Present)"
-              description="Shopping cart website using React technology"
+              description="started working on an e-commerce website using React and JSON Server, focusing on enhancing my frontend development and API integration skills."
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink="https://salahaka.github.io/eigo_shoppingweb/"
               websiteLink=""
