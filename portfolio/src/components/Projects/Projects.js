@@ -36,7 +36,7 @@ function Projects() {
               title="Eigo Shopping Cart (Present)"
               description="Started working on an e-commerce website using React and JSON Server, focusing on enhancing my frontend development and API integration skills."
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              demoLink=""
               websiteLink=""
             />
           </Col>
