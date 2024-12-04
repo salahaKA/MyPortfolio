@@ -141,7 +141,7 @@ function Contact() {
             {errors.subject}
           </Form.Control.Feedback>
         </Form.Group>
-        <Form.Group controlId="formPassword">
+        {/* <Form.Group controlId="formPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
@@ -153,7 +153,7 @@ function Contact() {
           <Form.Control.Feedback type="invalid">
             {errors.password}
           </Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group> */}
         <Row className="mt-3">
           <Col md={6} className="mb-2">
             <Button type="submit" variant="primary" className="contact-button w-100">
