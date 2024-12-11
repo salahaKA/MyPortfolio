@@ -53,14 +53,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Epitom23}
+              imgPath={todo}
               isBlog={false}
-              title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
-              description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
-IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
-              ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
-              demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
-              pdfLink={SACAIM}
+              title="To-do List (2024)"
+              description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
+              ghLink="https://github.com/salahaKA/todolist_app.git"
+              demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink=""
             />
           </Col>
@@ -90,15 +88,16 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               websiteLink=""
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo}
+              imgPath={Epitom23}
               isBlog={false}
-              title="To-do List (2024)"
-              description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
-              ghLink="https://github.com/salahaKA/todolist_app.git"
-              demoLink="https://salahaka.github.io/todolist_app/"
+              title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
+              description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
+IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
+              ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
+              demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
+              pdfLink={SACAIM}
               websiteLink=""
             />
           </Col>

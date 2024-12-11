@@ -29,7 +29,7 @@ function AboutCard() {
           {/* Experience Tab */}
           <Tab
             eventKey="experience"
-            title={<span style={{ color: "gray" }}>Experience</span>}
+            title={<span style={{ color: "gray" }}>Internship Experience</span>}
           >
             <div className="tab-content">
               <div className="tab-item">
@@ -120,21 +120,7 @@ function AboutCard() {
                   </p>
                 </li>
                 
-                <li style={{ marginBottom: "15px" }}>
-                  <h6
-                    style={{
-                      color: "#9b59b6",
-                      fontWeight: "bold",
-                      marginBottom: "5px",
-                    }}
-                  >
-                    Travelling
-                  </h6>
-                  <p style={{ color: "white", margin: "0" }}>
-                    Love exploring new places and immersing myself in different
-                    cultures.
-                  </p>
-                </li>
+                
                 {/* <hr style={{ borderColor: "#444" }} /> */}
 
                 <li style={{ marginBottom: "15px" }}>
@@ -166,6 +152,22 @@ function AboutCard() {
                   <p style={{ color: "white", margin: "0" }}>
                     Love playing mobile games and engaging in sports like
                     badminton, chess for fun and relaxation.
+                  </p>
+                </li>
+
+                <li style={{ marginBottom: "15px" }}>
+                  <h6
+                    style={{
+                      color: "#9b59b6",
+                      fontWeight: "bold",
+                      marginBottom: "5px",
+                    }}
+                  >
+                    Travelling
+                  </h6>
+                  <p style={{ color: "white", margin: "0" }}>
+                    Love exploring new places and immersing myself in different
+                    cultures.
                   </p>
                 </li>
               </ul>
