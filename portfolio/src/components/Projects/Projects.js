@@ -47,7 +47,7 @@ function Projects() {
               title="RDL DSC (MCA final Internship project - 2024)"
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
-              demoLink="https://youtu.be/i7x2Yazs_3E"
+              demoLink="https://youtu.be/H3lzv1NUGa0"
               pdfLink={pdfDCS}
             />
           </Col>
