@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaChess, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+
 
 function Footer() {
   let date = new Date();
@@ -60,16 +61,16 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li> */}
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://www.chess.com/member/salaha_07"
+                href="https://www.chess.com/member/salahaka"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaChess />
               </a>
-            </li> */}
+            </li>
           </ul>
         </Col>
       </Row>
