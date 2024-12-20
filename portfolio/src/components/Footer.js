@@ -9,7 +9,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{ position: "fixed", bottom: "0",  padding: "10px 0"}}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Kadeejath Salaha</h3>
