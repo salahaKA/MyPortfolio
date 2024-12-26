@@ -16,9 +16,9 @@ const skillsData = [
   { name: "C++", level: 75 },
   { name: "Java", level: 55 },
   { name: "Android Studio", level: 60 },
-  { name: "MongoDB", level: 30 },
-  { name: "Firebase", level: 30 },
   { name: "Python", level: 50 },
+  { name: "Firebase", level: 30 },
+  
 ];
 
 function Skills() {
