@@ -33,10 +33,18 @@ function Projects() {
             <ProjectCard
               imgPath={eigo_shoppie}
               isBlog={false}
-              title="Eigo Shopping Cart (Present)"
-              description="Started working on an e-commerce website using React and JSON Server, focusing on enhancing my frontend development and API integration skills."
+              title={
+                <>
+                  Eigo Shopping Cart
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (Present)
+                  </span>
+                </>
+              }
+              description="Started working on an e-commerce website  using React,MUI and JSON Server, focusing on enhancing frontend development and API integration skills."
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink=""
+              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
               websiteLink=""
             />
           </Col>
@@ -44,7 +52,15 @@ function Projects() {
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
-              title="RDL DSC (MCA final Internship project - 2024)"
+              title={
+                <>
+                  RDL DCS
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (MCA Internship project - 2024)
+                  </span>
+                </>
+              }
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink="https://youtu.be/H3lzv1NUGa0"
@@ -55,7 +71,15 @@ function Projects() {
             <ProjectCard
               imgPath={todo}
               isBlog={false}
-              title="To-do List (2024)"
+              title={
+                <>
+                  To-do List
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (2024)
+                  </span>
+                </>
+              }
               description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
               ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
@@ -67,8 +91,16 @@ function Projects() {
             <ProjectCard
               imgPath={BE}
               isBlog={false}
-              title="Bharath Enterprises (AIMIT BCP - 2024)"
-              description="An E-commerce hardware store web application to manage online sales and
+              title={
+                <>
+                  Bharath Enterprises
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (AIMIT BCP Project - 2024)
+                  </span>
+                </>
+              }
+              description="An E-commerce hardware store full-stack web application to manage online sales and
  payments built with the AIMIT SIG team using Python Django technology."
               ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink=""
@@ -79,7 +111,16 @@ function Projects() {
             <ProjectCard
               imgPath={WeCare}
               isBlog={false}
-              title="We Care (BSC final - 2022)"
+              // title="We Care (BSC final - 2022)"
+              title={
+                <>
+                  We Care
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (BSC final - 2022)
+                  </span>
+                </>
+              }
               description="A Palliative Care Management System designed to streamline patient care and
  tracking, built using HTML/CSS/JS, bootstrap, Python Flask and MySQL."
               ghLink="https://github.com/salahaKA/wecare"
@@ -92,7 +133,16 @@ function Projects() {
             <ProjectCard
               imgPath={Epitom23}
               isBlog={false}
-              title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
+              // title="Diabetes Prediction Using Different Machine Learning Algorithm (2023)"
+              title={
+                <>
+                  Diabetes Prediction Using Different Machine Learning Algorithm
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (2023)
+                  </span>
+                </>
+              }
               description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
 IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
@@ -140,7 +190,15 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             <ProjectCard
               imgPath={penGes}
               isBlog={false}
-              title="penGes (AIMIT mini - 2023)"
+              title={
+                <>
+                  penGes Android fullstack Notes Application
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (AIMIT mini - 2023)
+                  </span>
+                </>
+              }
               description="Android fullstack notes application using Java, XML and Firebase for efficient note-taking and organization."
               ghLink="https://github.com/salahaKA/penGes_android_app.git"
               demoLink=""
