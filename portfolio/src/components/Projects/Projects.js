@@ -12,7 +12,6 @@ import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 import MP from "../../Assets/Projects/mp.png";
 import todo from "../../Assets/Projects/todoo.png";
-
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
@@ -44,7 +43,7 @@ function Projects() {
               }
               description="Started working on an e-commerce website  using React,MUI and JSON Server, focusing on enhancing frontend development and API integration skills."
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink="https://salahaka.github.io/eigo_shoppingweb/"
+              demoLink=""
               websiteLink=""
             />
           </Col>
