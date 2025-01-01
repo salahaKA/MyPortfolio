@@ -38,7 +38,16 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/MyPortfolio" className="d-flex">
+        {/* <Navbar.Brand href="/MyPortfolio" className="d-flex">
+          <img src={logo} className="img-fluid logo" alt="brand" />
+        </Navbar.Brand> */}
+
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="d-flex"
+          onClick={() => updateExpanded(false)}
+        >
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
