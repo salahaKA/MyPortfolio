@@ -15,10 +15,13 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { FaTools } from "react-icons/fa";
+import "./Navbar.css";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false); // State for theme toggler
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -30,12 +33,19 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.className = isDarkMode ? "light-theme" : "dark-theme"; // Update body class
+  };
+
   return (
     <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={`${navColour ? "sticky" : "navbar"} ${
+        isDarkMode ? "dark-nav" : "light-nav"
+      }`}
     >
       <Container>
         {/* <Navbar.Brand href="/MyPortfolio" className="d-flex">
@@ -141,6 +151,17 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
+            {/* Theme Toggler */}
+            <Nav.Item>
+              <Button
+                onClick={toggleTheme}
+                className="theme-toggler"
+                variant={isDarkMode ? "light" : "dark"}
+              >
+                {isDarkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}
+              </Button>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

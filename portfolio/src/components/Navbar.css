@@ -1,0 +1,32 @@
+/* Light Theme */
+body.light-theme {
+    background-color: #8a248d;
+    color: #000000;
+  }
+  
+  .navbar.light-nav {
+    background-color: #8a248d;
+    color: #000;
+  }
+  
+  /* Dark Theme */
+  body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar.dark-nav {
+    background-color: #333333;
+    color: #fff;
+  }
+  
+  /* Theme Toggler Button */
+  .theme-toggler {
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
