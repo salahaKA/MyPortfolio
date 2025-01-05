@@ -41,7 +41,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="Started working on an e-commerce website  using React,MUI and JSON Server, focusing on enhancing frontend development and API integration skills."
+              description="React, MUI, JSON Server E-COMMERCE DEMO WEBSITE"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
               websiteLink=""
