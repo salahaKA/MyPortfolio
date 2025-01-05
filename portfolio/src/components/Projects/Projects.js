@@ -28,25 +28,7 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eigo_shoppie}
-              isBlog={false}
-              title={
-                <>
-                  Eigo Shopping Cart
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (Present)
-                  </span>
-                </>
-              }
-              description="E-COMMERCE WEBSITE using React, MUI, JSON Server"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink=""
-              websiteLink=""
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -82,6 +64,26 @@ function Projects() {
               description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
               ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
+              websiteLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eigo_shoppie}
+              isBlog={false}
+              title={
+                <>
+                  Eigo Shopping Cart
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (Present)
+                  </span>
+                </>
+              }
+              description="E-COMMERCE WEBSITE using React, MUI, JSON Server"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink=""
               websiteLink=""
             />
           </Col>
