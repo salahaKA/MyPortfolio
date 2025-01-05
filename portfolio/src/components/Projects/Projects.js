@@ -41,7 +41,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="React, MUI, JSON Server E-COMMERCE DEMO WEBSITE"
+              description="E-COMMERCE WEBSITE using React, MUI, JSON Server"
               ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
               websiteLink=""
