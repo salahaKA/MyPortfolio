@@ -155,16 +155,36 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={penGes}
+              isBlog={false}
+              title={
+                <>
+                  penGes Android fullstack Notes Application
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (AIMIT mini - 2023)
+                  </span>
+                </>
+              }
+              description="Android fullstack notes application using Java, XML, Sqlite and Firebase for efficient note-taking and organization."
+              ghLink="https://github.com/salahaKA/penGes_android_app.git"
+              demoLink=""
+              websiteLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={MP}
               isBlog={false}
               title="Play Music"
-              description="Web Design 2022"
+              description="UI/UX"
               ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
               websiteLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Eigo}
               isBlog={false}
@@ -174,7 +194,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
               websiteLink=""
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
@@ -187,25 +207,7 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={penGes}
-              isBlog={false}
-              title={
-                <>
-                  penGes Android fullstack Notes Application
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (AIMIT mini - 2023)
-                  </span>
-                </>
-              }
-              description="Android fullstack notes application using Java, XML and Firebase for efficient note-taking and organization."
-              ghLink="https://github.com/salahaKA/penGes_android_app.git"
-              demoLink=""
-              websiteLink=""
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
