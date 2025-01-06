@@ -43,7 +43,7 @@ function Projects() {
                 </>
               }
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
-              ghLink="https://github.com/salahaKA/checklist.git"
+              // ghLink="https://github.com/salahaKA/checklist.git"
               demoLink="https://youtu.be/H3lzv1NUGa0"
               pdfLink={pdfDCS}
             />
@@ -146,7 +146,7 @@ function Projects() {
               }
               description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
 IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
-              ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
+              // ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
               demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
               pdfLink={SACAIM}
               websiteLink=""
