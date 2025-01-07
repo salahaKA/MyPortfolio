@@ -5,13 +5,14 @@ body.light-theme {
   }
   
   .navbar.light-nav {
-    background-color: #8a248d;
+    background-color: #121212;
+    
     color: #000;
   }
   
   /* Dark Theme */
   body.dark-theme {
-    background-color: #121212;
+    background-color: #8a248d;
     color: #ffffff;
   }
   
