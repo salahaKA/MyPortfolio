@@ -154,7 +154,7 @@ function AboutCard() {
                   </p>
                 </li>
 
-                <li style={{ marginBottom: "15px" }}>
+                {/* <li style={{ marginBottom: "15px" }}>
                   <h6
                     style={{
                       color: "#9b59b6",
@@ -168,7 +168,7 @@ function AboutCard() {
                     Love exploring new places and immersing myself in different
                     cultures.
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </Tab>
