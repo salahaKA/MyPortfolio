@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.a13e9db5.css",
-    "main.js": "/MyPortfolio/static/js/main.092b2b9c.js",
+    "main.css": "/MyPortfolio/static/css/main.6e03e00d.css",
+    "main.js": "/MyPortfolio/static/js/main.6e1c2610.js",
     "static/js/453.1407b060.chunk.js": "/MyPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/palliativedoc(salaha).pdf": "/MyPortfolio/static/media/palliativedoc(salaha).8ac98da068990671c440.pdf",
     "static/media/RDL_DCS_Salaha.pdf": "/MyPortfolio/static/media/RDL_DCS_Salaha.fcb48ee04692af9ac404.pdf",
@@ -17,7 +17,7 @@
     "static/media/about-logo.png": "/MyPortfolio/static/media/about-logo.23b4b9e0c06527061361.png",
     "static/media/penGes1.png": "/MyPortfolio/static/media/penGes1.00d0eccc6fb37f30f8b3.png",
     "static/media/weCare.png": "/MyPortfolio/static/media/weCare.e2d513cdd74761f3627f.png",
-    "static/media/CV_SalahaKA_fresher.pdf": "/MyPortfolio/static/media/CV_SalahaKA_fresher.52698628f40825e32446.pdf",
+    "static/media/ATS83.pdf": "/MyPortfolio/static/media/ATS83.1602b25bc8c28e8900b7.pdf",
     "static/media/salaha.jpg": "/MyPortfolio/static/media/salaha.9d9538cc2107d25d2d32.jpg",
     "static/media/logome.jpg": "/MyPortfolio/static/media/logome.fc0f6d5880e9a0a830a4.jpg",
     "static/media/Epitom.png": "/MyPortfolio/static/media/Epitom.19bc1fd2da1d63b1a3f9.png",
@@ -25,12 +25,12 @@
     "static/media/todoo.png": "/MyPortfolio/static/media/todoo.9eab688a3bb6839e7f94.png",
     "static/media/pre.svg": "/MyPortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/MyPortfolio/index.html",
-    "main.a13e9db5.css.map": "/MyPortfolio/static/css/main.a13e9db5.css.map",
-    "main.092b2b9c.js.map": "/MyPortfolio/static/js/main.092b2b9c.js.map",
+    "main.6e03e00d.css.map": "/MyPortfolio/static/css/main.6e03e00d.css.map",
+    "main.6e1c2610.js.map": "/MyPortfolio/static/js/main.6e1c2610.js.map",
     "453.1407b060.chunk.js.map": "/MyPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a13e9db5.css",
-    "static/js/main.092b2b9c.js"
+    "static/css/main.6e03e00d.css",
+    "static/js/main.6e1c2610.js"
   ]
 }
