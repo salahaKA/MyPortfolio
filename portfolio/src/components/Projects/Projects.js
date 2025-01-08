@@ -126,8 +126,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="AIMIT 'SACAIM'23 INTERNATIONAL CONFERENCE ON ADVANCE 
-IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
+              description="AIMIT 'SACAIM'23 research based project done with SIG team"
               // ghLink="https://github.com/salahaKA/Diabetes-Analysis-Using-Machine-Learning-Algorithms.git"
               demoLink="https://chapters.redshine.in/index.php/redshine/article/view/1838"
               pdfLink={SACAIM}
