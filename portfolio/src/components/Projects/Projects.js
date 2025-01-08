@@ -68,25 +68,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eigo_shoppie}
-              isBlog={false}
-              title={
-                <>
-                  Eigo Shopping Cart
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (Present)
-                  </span>
-                </>
-              }
-              description="E-COMMERCE WEBSITE using React, MUI, JSON Server"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
-              demoLink=""
-              websiteLink=""
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -181,6 +163,25 @@ IT, ENGINEERING AND MANAGEMENT'  research based project done with SIG team"
               description="UI/UX"
               ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
+              websiteLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eigo_shoppie}
+              isBlog={false}
+              title={
+                <>
+                  Eigo Shopping Cart
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (2024)
+                  </span>
+                </>
+              }
+              description="E-COMMERCE Demo Website using React, MUI, JSON Server"
+              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              demoLink=""
               websiteLink=""
             />
           </Col>
