@@ -61,7 +61,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="Simple To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
+              description="To Do List Application developed by using React, CSS, Tailwind CSS and HTML"
               ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink=""
@@ -84,7 +84,7 @@ function Projects() {
                 </>
               }
               description="An E-commerce hardware store full-stack web application to manage online sales and
- payments built with the AIMIT SIG team using Python Django technology."
+ payments using Python Django technology."
               ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink=""
             />
