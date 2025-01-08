@@ -42,7 +42,7 @@ function About() {
         {/* <Techstack /> */}
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I used
+          <strong className="purple">Tools</strong> I am familiar with
         </h1>
         <Toolstack />
 
