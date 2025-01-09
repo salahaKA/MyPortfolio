@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import CV from "../../Assets/Resume/CV_Kadeejath Salaha.pdf";
+import CV from "../../Assets/Resume/CV_Kadeejath Salaha_SD.pdf";
 import cpdf from "../../Assets/Resume/skillcertificates.pdf.pdf";
 // import MCAMcard from "../../Assets/Resume/MCA marc Cards.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -44,7 +44,7 @@ function ResumeNew() {
         <br />
         <br />
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={cpdf}
@@ -54,7 +54,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download Skill Certificates
           </Button>
-        </Row>
+        </Row> */}
 
         {/* <br />
         <br />
