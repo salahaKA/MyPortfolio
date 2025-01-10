@@ -1,13 +1,19 @@
-import React from "react";
+import React  from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/salaha.jpg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import Contact from "../Contact/Contact";
+// import Contact from "../Contact/Contact";
+
 
 function Home2() {
+  // const [showContactForm, setShowContactForm] = useState(false);
+  // const handleContactButtonClick = () => {
+  //   setShowContactForm(!showContactForm);
+  // };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -17,8 +23,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello! I'm Kadeejath Salaha, a passionate Software Developer With hands-on experience through
-              academic and internship projects.
+              Hello! I'm Kadeejath Salaha, a passionate Software Developer With
+              hands-on experience through academic and internship projects.
               {/* I'm
               committed to building impactful web applications. */}
               <br />
@@ -49,9 +55,8 @@ function Home2() {
               </i> */}
               <br />
               <br />
-              Feel free to connect with me on LinkedIn
-              or check out my  GitHub
-              to see more of my work.
+              Feel free to connect with me on LinkedIn or check out my GitHub to
+              see more of my work.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -143,12 +148,28 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+
         {/* Adding the Contact Component here */}
-        <Row>
-          <Col md={12}>
-            <Contact />
+        {/* <Row>
+          <Col md={12} className="text-center">
+            <Button
+              onClick={handleContactButtonClick}
+              className="contact-button"
+            >
+              {" "}
+              {showContactForm ? "Hide Contact Form" : "Contact Me"}{" "}
+            </Button>
           </Col>
-        </Row>
+        </Row> */}
+
+        {/* Conditionally render the contact form */}
+        {/* {showContactForm && (
+          <Row>
+            <Col md={12} className="text-center">
+              <Contact />
+            </Col>
+          </Row>
+        )} */}
       </Container>
     </Container>
   );
