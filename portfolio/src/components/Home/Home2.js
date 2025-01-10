@@ -18,7 +18,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hello! I'm Kadeejath Salaha, a passionate Software Developer With hands-on experience through
-              academic and internship projects.,
+              academic and internship projects.
               {/* I'm
               committed to building impactful web applications. */}
               <br />
