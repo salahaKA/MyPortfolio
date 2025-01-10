@@ -272,8 +272,10 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-attachment: fixed; /* This will fix the background image */
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover; /* Ensures the background image covers the entire section */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }

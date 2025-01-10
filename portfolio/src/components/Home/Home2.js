@@ -18,15 +18,15 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hello! I'm Kadeejath Salaha, a passionate Software Developer With hands-on experience through
-              internships and projects,
+              academic and internship projects.,
               {/* I'm
               committed to building impactful web applications. */}
               <br />
-              <br />I am fluent in classics like
+              {/* <br />I am fluent in classics like
               <i>
                 <b className="purple"> OOPs, C++, Javascript and MySQL. </b>
               </i>
-              <br />
+              <br /> */}
               <br />
               My field of Interest's are building new &nbsp;
               <i>
