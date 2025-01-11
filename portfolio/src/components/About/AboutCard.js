@@ -79,7 +79,7 @@ function AboutCard() {
                   2019-2022
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
-                  BSC Computer Science
+                  BSc Computer Science
                 </h5>
                 <p>Kannur University </p>
               </div>
