@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.3e0a0a95.css",
-    "main.js": "/MyPortfolio/static/js/main.c59bf23e.js",
+    "main.js": "/MyPortfolio/static/js/main.4a8f4d8b.js",
     "static/js/453.1407b060.chunk.js": "/MyPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/palliativedoc(salaha).pdf": "/MyPortfolio/static/media/palliativedoc(salaha).8ac98da068990671c440.pdf",
     "static/media/RDL_DCS_Salaha.pdf": "/MyPortfolio/static/media/RDL_DCS_Salaha.fcb48ee04692af9ac404.pdf",
@@ -17,7 +17,7 @@
     "static/media/about-logo.png": "/MyPortfolio/static/media/about-logo.23b4b9e0c06527061361.png",
     "static/media/penGes1.png": "/MyPortfolio/static/media/penGes1.00d0eccc6fb37f30f8b3.png",
     "static/media/weCare.png": "/MyPortfolio/static/media/weCare.e2d513cdd74761f3627f.png",
-    "static/media/CV_Kadeejath Salaha_SD.pdf": "/MyPortfolio/static/media/CV_Kadeejath Salaha_SD.5401aac3d277c79eda7e.pdf",
+    "static/media/Kadeejath Salaha_MCA_fresher.pdf": "/MyPortfolio/static/media/Kadeejath Salaha_MCA_fresher.d39427950136919d43ae.pdf",
     "static/media/salaha.jpg": "/MyPortfolio/static/media/salaha.9d9538cc2107d25d2d32.jpg",
     "static/media/logome.jpg": "/MyPortfolio/static/media/logome.fc0f6d5880e9a0a830a4.jpg",
     "static/media/Epitom.png": "/MyPortfolio/static/media/Epitom.19bc1fd2da1d63b1a3f9.png",
@@ -26,11 +26,11 @@
     "static/media/pre.svg": "/MyPortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.3e0a0a95.css.map": "/MyPortfolio/static/css/main.3e0a0a95.css.map",
-    "main.c59bf23e.js.map": "/MyPortfolio/static/js/main.c59bf23e.js.map",
+    "main.4a8f4d8b.js.map": "/MyPortfolio/static/js/main.4a8f4d8b.js.map",
     "453.1407b060.chunk.js.map": "/MyPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e0a0a95.css",
-    "static/js/main.c59bf23e.js"
+    "static/js/main.4a8f4d8b.js"
   ]
 }
