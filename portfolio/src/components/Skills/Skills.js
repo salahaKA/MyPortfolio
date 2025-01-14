@@ -16,7 +16,7 @@ const skillsData = [
   { name: "C++", level: 75 },
   { name: "Java", level: 55 },
   { name: "Android Studio", level: 60 },
-  { name: "Python", level: 50 },
+  { name: "Python", level: 60 },
   { name: "Firebase", level: 30 },
 ];
 
