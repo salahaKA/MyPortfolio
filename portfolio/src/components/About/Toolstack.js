@@ -15,6 +15,8 @@ import {
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
+// import { DiNetbeans } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -26,7 +28,7 @@ function Toolstack() {
         <SiGit /> {/* GitHub */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiReact /> 
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql /> {/* MySQL Workbench */}
@@ -59,12 +61,14 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp />
       </Col>
-      
-      
 
       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase/> 
+        <DiNetbeans /> 
       </Col> */}
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
     </Row>
   );
 }
