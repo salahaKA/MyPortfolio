@@ -12,11 +12,14 @@ const skillsData = [
   { name: "MySQL", level: 80 },
   { name: "JSON", level: 60 },
   { name: "Node.js/Express.js", level: 55 },
+  { name: "Python", level: 80 },
   { name: "OOPs", level: 85 },
+  {name: "postgreSQL", level: 70},
   { name: "C++", level: 75 },
   { name: "Java", level: 55 },
   { name: "Android Studio", level: 60 },
-  { name: "Python", level: 60 },
+  {name:"JQuery", level: 50},
+  
   { name: "Firebase", level: 30 },
 ];
 
