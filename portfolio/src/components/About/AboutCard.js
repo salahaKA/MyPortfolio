@@ -115,8 +115,9 @@ function AboutCard() {
                     Coding
                   </h6>
                   <p style={{ color: "white", margin: "0" }}>
-                    Passionate about developing web applications and learning
-                    new programming languages.
+                    Passionate about collaborating on real-world projects,
+                    utilizing my skills and knowledge, and continuously learning
+                    to deliver impactful solutions.
                   </p>
                 </li>
 
