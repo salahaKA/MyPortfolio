@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import portfolio from "../../Assets/Projects/portfolio.png";
-import Eigo from "../../Assets/Projects/eigo.png";
+// import Eigo from "../../Assets/Projects/eigo.png";
 import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes1.png";
@@ -13,6 +13,7 @@ import Epitom23 from "../../Assets/Projects/Epitom.png";
 import MP from "../../Assets/Projects/mp.png";
 import todo from "../../Assets/Projects/todoo.png";
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
+import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
 function Projects() {
@@ -43,7 +44,7 @@ function Projects() {
                 </>
               }
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
-              ghLink="https://github.com/salahaKA/checklist.git"
+              // ghLink="https://github.com/salahaKA/checklist.git"
               demoLink="https://youtu.be/H3lzv1NUGa0"
               pdfLink={pdfDCS}
             />
@@ -67,8 +68,9 @@ function Projects() {
               }
               description="Designed and Developed an E-commerce hardware store full-stack web application to manage online sales and
  payments using Python Django technology."
-              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
-              demoLink=""
+              // ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              demoLink=""pdfLink={pdfBE}
+
             />
           </Col>
 
@@ -88,7 +90,7 @@ function Projects() {
               }
               description="A Palliative Care Management System designed to streamline patient care and
  tracking, built using HTML/CSS/JS, bootstrap, Python Flask and MySQL."
-              ghLink="https://github.com/salahaKA/wecare"
+              // ghLink="https://github.com/salahaKA/wecare"
               demoLink=""
               pdfLink={pdfWecare}
               websiteLink=""
@@ -110,8 +112,8 @@ function Projects() {
                 </>
               }
               description="Designed and Built Android Note-taking mobile application using Android studio with Java, XML, Sqlite and Firebase."
-              ghLink="https://github.com/salahaKA/penGes_android_app.git"
-              demoLink=""
+              // ghLink="https://github.com/salahaKA/penGes_android_app.git"
+              demoLink="https://youtube.com/shorts/qByxEj2rjIo"
               websiteLink=""
             />
           </Col>
@@ -143,7 +145,7 @@ function Projects() {
               isBlog={false}
               title={
                 <>
-                  To-do List
+                  To-do List (Figma to React conversion)
                   <br />
                   <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
                     (2024)
@@ -151,7 +153,7 @@ function Projects() {
                 </>
               }
               description="To Do List Application designed and developed by using React, CSS, Tailwind CSS and HTML"
-              ghLink="https://github.com/salahaKA/todolist_app.git"
+              // ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink=""
             />
@@ -163,7 +165,7 @@ function Projects() {
               isBlog={false}
               title="Play Music"
               description="UI/UX"
-              ghLink="https://github.com/salahaKA/musicplayer.git"
+              // ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
               websiteLink=""
             />
@@ -181,10 +183,10 @@ function Projects() {
                   </span>
                 </>
               }
-              description="E-COMMERCE Demo Website using React, MUI, JSON Server"
-              ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
+              description="E-COMMERCE frontend design using React, MUI, JSON Server"
+              // ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
-              websiteLink=""
+              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
           {/* <Col md={4} className="project-card">
@@ -203,7 +205,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Personal Portfolio Website"
-              description="A responsive portfolio website using React, CSS and bootstrap to showcase my projects and professional skills."
+              description="Personal portfolio using React, CSS and bootstrap."
               // ghLink="https://github.com/salahaKA/MyPortfolio.git"
               // demoLink="https://salahaka.github.io/MyPortfolio/"
               websiteLink=""

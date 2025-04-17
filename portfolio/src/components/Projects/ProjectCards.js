@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 // import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+// import { BsGithub } from "react-icons/bs";
 import { AiOutlineFileText } from "react-icons/ai";
 import {BiLinkExternal} from "react-icons/bi"
 import "./Project.css";
@@ -44,14 +44,14 @@ function ProjectCards(props) {
           </Button>
         )}
         
-        <Button
+        {/* <Button
           variant="outline-dark"
           href={props.ghLink}
           target="_blank"
           className="icon-button"
         >
           <BsGithub />
-        </Button>
+        </Button> */}
         {props.pdfLink && (
           <Button
             variant="outline-dark"
