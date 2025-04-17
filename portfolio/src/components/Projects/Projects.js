@@ -29,7 +29,6 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -49,9 +48,6 @@ function Projects() {
               pdfLink={pdfDCS}
             />
           </Col>
-          
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -69,8 +65,8 @@ function Projects() {
               description="Designed and Developed an E-commerce hardware store full-stack web application to manage online sales and
  payments using Python Django technology."
               // ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
-              demoLink=""pdfLink={pdfBE}
-
+              demoLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              pdfLink={pdfBE}
             />
           </Col>
 
@@ -96,7 +92,6 @@ function Projects() {
               websiteLink=""
             />
           </Col>
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -155,7 +150,7 @@ function Projects() {
               description="To Do List Application designed and developed by using React, CSS, Tailwind CSS and HTML"
               // ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
-              websiteLink=""
+              websiteLink="https://salahaka.github.io/todolist_app/"
             />
           </Col>
 
@@ -167,7 +162,7 @@ function Projects() {
               description="UI/UX"
               // ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
-              websiteLink=""
+              websiteLink="https://salahaka.github.io/musicplayer/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -208,11 +203,9 @@ function Projects() {
               description="Personal portfolio using React, CSS and bootstrap."
               // ghLink="https://github.com/salahaKA/MyPortfolio.git"
               // demoLink="https://salahaka.github.io/MyPortfolio/"
-              websiteLink=""
+              websiteLink="https://salahaka.github.io/MyPortfolio/"
             />
           </Col>
-
-          
         </Row>
       </Container>
     </Container>
