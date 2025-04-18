@@ -174,14 +174,14 @@ function Projects() {
                   Eigo Shopping Cart
                   <br />
                   <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (2024)
+                    (Present)
                   </span>
                 </>
               }
               description="E-COMMERCE frontend design using React, MUI, JSON Server"
               // ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
-              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
+              // websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
           </Col>
           {/* <Col md={4} className="project-card">
