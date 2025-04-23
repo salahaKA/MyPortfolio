@@ -5,7 +5,7 @@ import SkillItem from "./SkillItems"; // Import the SkillItem component
 
 const skillsData = [
   { name: "Problem Solving", level: 85 },
-  { name: "Communication", level: 80 },
+  { name: "Communication", level: 85 },
   { name: "React.js/MUI", level: 80 },
   { name: "HTML/CSS/Bootstrap", level: 90 },
   { name: "Git", level: 80 },

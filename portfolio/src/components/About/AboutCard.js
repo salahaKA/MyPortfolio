@@ -173,6 +173,33 @@ function AboutCard() {
               </ul>
             </div>
           </Tab>
+          <Tab
+            eventKey="extracurricular"
+            title={
+              <span style={{ color: "gray" }}>Extracurricular Activities</span>
+            }
+          >
+            <div className="tab-content">
+              <ul style={{ paddingLeft: "0", listStyle: "none" }}>
+                <li style={{ marginBottom: "15px" }}>
+                  <h6
+                    style={{
+                      color: "#9b59b6",
+                      fontWeight: "bold",
+                      marginBottom: "5px",
+                    }}
+                  >
+                    Chess
+                  </h6>
+                  <p style={{ color: "white", margin: "0" }}>
+                    District-level chess player during Govt HS and HSS.
+                    {/* Participated in multiple inter-school tournaments and
+                    represented the school at the district level. */}
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </Tab>
         </Tabs>
       </Card.Body>
     </Card>
