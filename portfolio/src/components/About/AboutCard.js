@@ -173,7 +173,7 @@ function AboutCard() {
               </ul>
             </div>
           </Tab>
-          <Tab
+          {/* <Tab
             eventKey="extracurricular"
             title={
               <span style={{ color: "gray" }}>Extracurricular Activities</span>
@@ -193,13 +193,12 @@ function AboutCard() {
                   </h6>
                   <p style={{ color: "white", margin: "0" }}>
                     District-level chess player during Govt HS and HSS.
-                    {/* Participated in multiple inter-school tournaments and
-                    represented the school at the district level. */}
+                    
                   </p>
                 </li>
               </ul>
             </div>
-          </Tab>
+          </Tab> */}
         </Tabs>
       </Card.Body>
     </Card>
