@@ -7,6 +7,7 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes1.png";
+import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
@@ -163,6 +164,17 @@ function Projects() {
               // ghLink="https://github.com/salahaKA/musicplayer.git"
               demoLink="https://salahaka.github.io/musicplayer/"
               websiteLink="https://salahaka.github.io/musicplayer/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Arsha}
+              isBlog={false}
+              title="Web Design - PDF to Code"
+              description="Landing Website"
+              ghLink=""
+              demoLink="https://arsha-demo-test.netlify.app/"
+              websiteLink="https://arsha-demo-test.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
