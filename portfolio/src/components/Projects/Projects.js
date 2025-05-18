@@ -157,6 +157,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Arsha}
+              isBlog={false}
+              title="Web Design - Figma to Code"
+              description="Responsive web design done with HTML, CSS, JS and Bootstrap"
+              ghLink=""
+              demoLink="https://arsha-demo-test.netlify.app/"
+              websiteLink="https://arsha-demo-test.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={MP}
               isBlog={false}
               title="Play Music"
@@ -166,17 +178,7 @@ function Projects() {
               websiteLink="https://salahaka.github.io/musicplayer/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Arsha}
-              isBlog={false}
-              title="Web Design - PDF to Code"
-              description="Landing Website"
-              ghLink=""
-              demoLink="https://arsha-demo-test.netlify.app/"
-              websiteLink="https://arsha-demo-test.netlify.app/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={eigo_shoppie}
@@ -190,7 +192,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="E-COMMERCE frontend design using React, MUI, JSON Server"
+              description="React E-COMMERCE Shopping cart"
               // ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
               // websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
