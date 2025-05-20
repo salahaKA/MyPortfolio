@@ -108,8 +108,8 @@ function Projects() {
                 </>
               }
               description="Designed and Built Android Note-taking mobile application using Android studio with Java, XML, Sqlite and Firebase."
-              // ghLink="https://github.com/salahaKA/penGes_android_app.git"
-              demoLink="https://youtube.com/shorts/qByxEj2rjIo"
+              ghLink="https://github.com/salahaKA/penGes_android_app.git"
+              demoLink=""
               websiteLink=""
             />
           </Col>
@@ -209,7 +209,7 @@ function Projects() {
               websiteLink=""
             />
           </Col> */}
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -219,7 +219,7 @@ function Projects() {
               // demoLink="https://salahaka.github.io/MyPortfolio/"
               websiteLink="https://salahaka.github.io/MyPortfolio/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

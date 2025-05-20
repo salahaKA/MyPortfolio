@@ -44,7 +44,7 @@ function ResumeNew() {
         <br />
         <br />
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={cpdf}
@@ -54,7 +54,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download Skill Certificates
           </Button>
-        </Row>
+        </Row> */}
 
         {/* <br />
         <br />
