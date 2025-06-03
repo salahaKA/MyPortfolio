@@ -1,26 +1,21 @@
 import React, { useState, useEffect } from "react";
 import "../Skills/Skills.css";
 import { Container, Row, Col } from "react-bootstrap";
-import SkillItem from "./SkillItems"; // Import the SkillItem component
+import SkillItem from "./SkillItems"; 
 
 const skillsData = [
   { name: "Problem Solving", level: 85 },
   { name: "Communication", level: 85 },
-  { name: "React.js/MUI", level: 80 },
-  { name: "HTML/CSS/Bootstrap", level: 90 },
-  { name: "Git", level: 80 },
-  { name: "MySQL", level: 80 },
-  { name: "JSON", level: 60 },
-  { name: "Node.js/Express.js", level: 55 },
+  { name: "React.js/MUI/Bootstrap/HTML5/CSS3", level: 80 },
+  { name: "SQL", level: 80 },
   { name: "Python", level: 80 },
-  { name: "OOPs", level: 85 },
-  {name: "postgreSQL", level: 70},
-  { name: "C++", level: 75 },
-  { name: "Java", level: 55 },
+  { name: "Node.js/Express.js", level: 60 },
+  { name: "OOPs/C++/Java", level: 75 },
+  { name: "C#/ASP.NET", level: 50 },
   { name: "Android Studio", level: 60 },
-  {name:"JQuery", level: 50},
-  
-  { name: "Firebase", level: 30 },
+  { name: "JQuery", level: 50 },
+  { name: "MongoDB", level: 60 },
+  { name: "Git", level: 80 },
 ];
 
 function Skills() {

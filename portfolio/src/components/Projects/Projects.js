@@ -2,16 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import portfolio from "../../Assets/Projects/portfolio.png";
+// import portfolio from "../../Assets/Projects/portfolio.png";
 // import Eigo from "../../Assets/Projects/eigo.png";
-import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
+// import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
-import MP from "../../Assets/Projects/mp.png";
+// import MP from "../../Assets/Projects/mp.png";
 import todo from "../../Assets/Projects/todoo.png";
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
@@ -167,7 +167,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MP}
               isBlog={false}
@@ -177,9 +177,9 @@ function Projects() {
               demoLink="https://salahaka.github.io/musicplayer/"
               websiteLink="https://salahaka.github.io/musicplayer/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={eigo_shoppie}
               isBlog={false}
@@ -193,11 +193,10 @@ function Projects() {
                 </>
               }
               description="React E-COMMERCE Shopping cart"
-              // ghLink="https://github.com/salahaKA/eigo_shoppingweb.git"
               demoLink=""
-              // websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
+              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
             />
-          </Col>
+          </Col> */}
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Eigo}
@@ -209,6 +208,7 @@ function Projects() {
               websiteLink=""
             />
           </Col> */}
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
