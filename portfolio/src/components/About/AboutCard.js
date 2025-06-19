@@ -32,6 +32,7 @@ function AboutCard() {
             title={<span style={{ color: "gray" }}>Internship Experience</span>}
           >
             <div className="tab-content">
+              
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   25/03/2024 - 05/09/2024
