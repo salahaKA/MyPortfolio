@@ -152,7 +152,7 @@ function NavBar() {
               </Button>
             </Nav.Item>
             {/* Theme Toggler */}
-            <Nav.Item>
+            {/* <Nav.Item>
               <Button
                 onClick={toggleTheme}
                 className="theme-toggler"
@@ -160,7 +160,7 @@ function NavBar() {
               >
                 {isDarkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
 
           </Nav>
         </Navbar.Collapse>

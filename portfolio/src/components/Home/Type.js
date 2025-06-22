@@ -8,7 +8,7 @@ function Type() {
         strings: [
           
           // "Open to work",
-          // "Aspiring Software Developer",
+          "Aspiring Software Developer",
           "Former Full-Stack Developer Intern @RDL",
           "MCA Graduate"
           // "FullStack Development",
