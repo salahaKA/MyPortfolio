@@ -44,7 +44,7 @@ function Projects() {
                 </>
               }
               description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
-              // ghLink="https://github.com/salahaKA/checklist.git"
+              ghLink="https://github.com/salahaKA/checklist.git"
               demoLink="https://youtu.be/H3lzv1NUGa0"
               pdfLink={pdfDCS}
             />
@@ -65,7 +65,7 @@ function Projects() {
               }
               description="Designed and Developed an E-commerce hardware store full-stack web application to manage online sales and
  payments using Python Django technology."
-              // ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
+              ghLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               demoLink="https://github.com/salahaKA/BharathEnterprises-Django.git"
               pdfLink={pdfBE}
             />
