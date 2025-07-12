@@ -1,0 +1,42 @@
+/* .avatar-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.avatar-img {
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+
+.moving-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    animation: floatAround 6s infinite ease-in-out;
+}
+
+
+@keyframes floatAround {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(10px, -10px) rotate(5deg);
+    }
+
+    50% {
+        transform: translate(0px, -20px) rotate(0deg);
+    }
+
+    75% {
+        transform: translate(-10px, -10px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+} */

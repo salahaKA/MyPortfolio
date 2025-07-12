@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/salaha.jpg";
+// import myImg2 from "../../Assets/Images/meCybro1.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -9,6 +10,15 @@ import Contact from "../Contact/Contact";
 
 function Home2() {
   const [showContactForm, setShowContactForm] = useState(false);
+  // const [currentImage, setCurrentImage] = useState(myImg);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentImage((prev) => (prev === myImg ? myImg2 : myImg));
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, []);
+
   const handleContactButtonClick = () => {
     setShowContactForm(!showContactForm);
   };
@@ -61,6 +71,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid avatar-img" alt="avatar" />
+              {/* <img src={currentImage} className="img-fluid avatar-img" alt="avatar" /> */}
             </Tilt>
           </Col>
         </Row>
@@ -113,37 +124,6 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/__s_a_l_a_h_a__"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li> */}
-
-              {/* <li className="social-icons">
-                <a
-                  href="https://stackoverflow.com/users/20411880/salahaka"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaStackOverflow />
-                </a>
-              </li> */}
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.chess.com/member/salaha_07"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaChess />
-                </a>
-              </li> */}
             </ul>
           </Col>
         </Row>
