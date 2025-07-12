@@ -1,18 +1,17 @@
-import React  from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/salaha.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-// import Contact from "../Contact/Contact";
-
+import Contact from "../Contact/Contact";
 
 function Home2() {
-  // const [showContactForm, setShowContactForm] = useState(false);
-  // const handleContactButtonClick = () => {
-  //   setShowContactForm(!showContactForm);
-  // };
+  const [showContactForm, setShowContactForm] = useState(false);
+  const handleContactButtonClick = () => {
+    setShowContactForm(!showContactForm);
+  };
 
   return (
     <Container fluid className="home-about-section" id="about">
@@ -170,6 +169,28 @@ function Home2() {
             </Col>
           </Row>
         )} */}
+        <Container className="contact-section my-5">
+          <Row className="justify-content-center mb-4">
+            <Col md={6} className="text-center">
+              <Button
+                onClick={handleContactButtonClick}
+                className="toggle-contact-button"
+              >
+                {showContactForm ? "Hide Contact Form" : "Contact Me"}
+              </Button>
+            </Col>
+          </Row>
+
+          {showContactForm && (
+            <Row className="justify-content-center">
+              <Col md={8}>
+                <div className="contact-form-wrapper">
+                  <Contact />
+                </div>
+              </Col>
+            </Row>
+          )}
+        </Container>
       </Container>
     </Container>
   );

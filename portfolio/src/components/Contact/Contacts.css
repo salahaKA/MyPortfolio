@@ -50,3 +50,16 @@
     }
   }
   
+
+  .error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.success-text {
+  color: #2d1950;
+  font-weight: bold;
+  margin-top: 15px;
+}
+

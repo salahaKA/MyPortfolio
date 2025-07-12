@@ -3,98 +3,67 @@ import "../Contact/Contacts.css";
 import { Button, Form, Container, Row, Col } from "react-bootstrap";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const strongPasswordRegex =
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
 function Contact() {
   const [formValues, setFormValues] = useState({
     name: "",
     email: "",
     subject: "",
-    password: "",
   });
 
-  const [errors, setErrors] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    password: "",
-  });
+  const [errors, setErrors] = useState({});
+  const [touched, setTouched] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
+
+  const validateForm = (values) => {
+    let formErrors = {};
+
+    if (!values.name.trim()) formErrors.name = "Name is required";
+    if (!emailPattern.test(values.email)) formErrors.email = "Valid email required";
+    if (!values.subject.trim()) formErrors.subject = "Subject is required";
+
+    return formErrors;
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormValues({ ...formValues, [name]: value });
+    const updatedValues = { ...formValues, [name]: value };
+    setFormValues(updatedValues);
 
-    switch (name) {
-      case "email":
-        setErrors((prevErrors) => ({
-          ...prevErrors,
-          email: emailPattern.test(value)
-            ? ""
-            : "Please enter a valid email address.",
-        }));
-        break;
-      case "password":
-        setErrors((prevErrors) => ({
-          ...prevErrors,
-          password: strongPasswordRegex.test(value)
-            ? ""
-            : "Password must be at least 8 characters long, include an uppercase letter, a number, and a special character.",
-        }));
-        break;
-      default:
-        setErrors((prevErrors) => ({
-          ...prevErrors,
-          [name]: value.trim()
-            ? ""
-            : `${name.charAt(0).toUpperCase() + name.slice(1)} is required.`,
-        }));
-        break;
+    if (touched[name]) {
+      setErrors(validateForm(updatedValues));
     }
+
+    setSuccessMessage("");
   };
 
-  const handleClear = () => {
-    setFormValues({
-      name: "",
-      email: "",
-      subject: "",
-      password: "",
-    });
-    setErrors({});
+  const handleBlur = (e) => {
+    const { name } = e.target;
+    setTouched({ ...touched, [name]: true });
+
+    const updatedErrors = validateForm(formValues);
+    setErrors(updatedErrors);
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
 
-    // Check if all fields are empty
-    if (!formValues.name && !formValues.email && !formValues.subject && !formValues.password) {
-      alert("Please fill in all fields."); // Show alert if all fields are empty
-      return;
-    }
+    const formErrors = validateForm(formValues);
+    setErrors(formErrors);
+    setTouched({ name: true, email: true, subject: true });
 
-    // Check for errors before showing success message
-    if (!errors.name && !errors.email && !errors.subject && !errors.password) {
-      alert("Thank you for your submission!"); // Show alert if no errors
-      // You can also implement the actual sending logic here
-      handleClear();
-    } else {
-      alert("Please fix the errors in the form.");
+    if (Object.keys(formErrors).length === 0) {
+      setSuccessMessage("Form submitted successfully!");
+      setFormValues({ name: "", email: "", subject: "" });
+      setTouched({});
     }
   };
-  // const handleSubmit = (e) => {
-  //   e.preventDefault(); // Prevent default form submission
-  //   if (!errors.name && !errors.email && !errors.subject && !errors.password) {
-  //     alert("Message sent successfully!"); // Show alert if no errors
-  //     // You can also implement the actual sending logic here
-  //   } else {
-  //     alert("Please fix the errors in the form.");
-  //   }
-  // };
 
   return (
     <Container className="contact-container">
       <h2 className="contact-title">Contact Me</h2>
-      <Form className="contact-form" noValidate onSubmit={handleSubmit}>
+
+      <Form className="contact-form" onSubmit={handleSubmit} noValidate>
         <Row>
           <Col md={6}>
             <Form.Group controlId="formName">
@@ -104,13 +73,13 @@ function Contact() {
                 name="name"
                 value={formValues.name}
                 onChange={handleChange}
-                isInvalid={!!errors.name}
+                onBlur={handleBlur}
+                isInvalid={touched.name && !!errors.name}
               />
-              <Form.Control.Feedback type="invalid">
-                {errors.name}
-              </Form.Control.Feedback>
+              {touched.name && <div className="error-text">{errors.name}</div>}
             </Form.Group>
           </Col>
+
           <Col md={6}>
             <Form.Group controlId="formEmail">
               <Form.Label>Email</Form.Label>
@@ -119,14 +88,14 @@ function Contact() {
                 name="email"
                 value={formValues.email}
                 onChange={handleChange}
-                isInvalid={!!errors.email}
+                onBlur={handleBlur}
+                isInvalid={touched.email && !!errors.email}
               />
-              <Form.Control.Feedback type="invalid">
-                {errors.email}
-              </Form.Control.Feedback>
+              {touched.email && <div className="error-text">{errors.email}</div>}
             </Form.Group>
           </Col>
         </Row>
+
         <Form.Group controlId="formSubject">
           <Form.Label>Subject</Form.Label>
           <Form.Control
@@ -135,55 +104,35 @@ function Contact() {
             name="subject"
             value={formValues.subject}
             onChange={handleChange}
-            isInvalid={!!errors.subject}
+            onBlur={handleBlur}
+            isInvalid={touched.subject && !!errors.subject}
           />
-          <Form.Control.Feedback type="invalid">
-            {errors.subject}
-          </Form.Control.Feedback>
+          {touched.subject && <div className="error-text">{errors.subject}</div>}
         </Form.Group>
-        {/* <Form.Group controlId="formPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            name="password"
-            value={formValues.password}
-            onChange={handleChange}
-            isInvalid={!!errors.password}
-          />
-          <Form.Control.Feedback type="invalid">
-            {errors.password}
-          </Form.Control.Feedback>
-        </Form.Group> */}
+
+        {successMessage && <div className="success-text">{successMessage}</div>}
+
         <Row className="mt-3">
-          <Col md={6} className="mb-2">
+          <Col md={6}>
             <Button type="submit" variant="primary" className="contact-button w-100">
               SEND Message
             </Button>
           </Col>
-          <Col md={6} className="mt-md-0 mt-2">
+          <Col md={6}>
             <Button
               variant="primary"
               className="contact-button w-100"
-              onClick={handleClear}
-              
+              onClick={() => {
+                setFormValues({ name: "", email: "", subject: "" });
+                setErrors({});
+                setTouched({});
+                setSuccessMessage("");
+              }}
             >
               CLEAR
             </Button>
           </Col>
         </Row>
-
-        {/* <Row className="mt-3">
-          <Col md={6}>
-            <Button variant="primary" className="contact-button" block>
-              SEND Message
-            </Button>
-          </Col>
-          <Col md={6}>
-            <Button variant="outline-secondary" className="contact-button" onClick={handleClear} block>
-              CLEAR
-            </Button>
-          </Col>
-        </Row> */}
       </Form>
     </Container>
   );

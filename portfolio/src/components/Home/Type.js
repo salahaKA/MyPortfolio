@@ -9,7 +9,7 @@ function Type() {
           
           // "Open to work",
           "Aspiring Software Developer",
-          "Former Full-Stack Developer Intern @RDL",
+          "Former Full-Stack Developer Intern",
           "MCA Graduate"
           // "FullStack Development",
           // "Web Development",
