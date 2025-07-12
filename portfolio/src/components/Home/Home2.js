@@ -156,7 +156,7 @@ function Home2() {
                 onClick={handleContactButtonClick}
                 className="toggle-contact-button"
               >
-                {showContactForm ? "Hide Contact Form" : "Contact Me"}
+                {showContactForm ? "Contact Form" : "Contact Me"}
               </Button>
             </Col>
           </Row>

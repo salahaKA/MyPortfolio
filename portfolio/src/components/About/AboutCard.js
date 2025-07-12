@@ -33,7 +33,7 @@ function AboutCard() {
           >
             <div className="tab-content">
 
-              <div className="tab-item">
+              {/* <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Feb 2025 - Apr 2025
                 </span>
@@ -44,7 +44,7 @@ function AboutCard() {
                   Cybrosys Technologies Pvt Ltd, Kinfra, Kozhikode, Kerala
                 </p>
               </div>
-              <hr style={{ borderColor: "#444" }} />
+              <hr style={{ borderColor: "#444" }} /> */}
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Mar 2024 - Sep 2024
@@ -56,7 +56,7 @@ function AboutCard() {
                   RDL Technologies Pvt Ltd - Sahyadri, Adyar, Karnataka
                 </p>
               </div>
-              {/* <hr style={{ borderColor: "#444" }} />
+              <hr style={{ borderColor: "#444" }} />
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Jan 2022 - Apr 2022
@@ -67,7 +67,7 @@ function AboutCard() {
                 <p style={{ marginBottom: "5px" }}>
                   Tequevia Technologies, NIT Calicut, Kanhangad
                 </p>
-              </div> */}
+              </div>
               
               {/* <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
