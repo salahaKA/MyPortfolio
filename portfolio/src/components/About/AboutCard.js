@@ -29,13 +29,25 @@ function AboutCard() {
           {/* Experience Tab */}
           <Tab
             eventKey="experience"
-            title={<span style={{ color: "gray" }}>Internship Experience</span>}
+            title={<span style={{ color: "gray" }}>Professional Experience</span>}
           >
             <div className="tab-content">
-              
+
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
-                  25/03/2024 - 05/09/2024
+                  Feb 2025 - Apr 2025
+                </span>
+                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
+                  Python / Odoo Developer Trainee
+                </h5>
+                <p style={{ marginBottom: "5px" }}>
+                  Cybrosys Technologies Pvt Ltd, Kinfra, Kozhikode, Kerala
+                </p>
+              </div>
+              <hr style={{ borderColor: "#444" }} />
+              <div className="tab-item">
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  Mar 2024 - Sep 2024
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   Full-Stack Developer Intern
@@ -47,7 +59,7 @@ function AboutCard() {
               <hr style={{ borderColor: "#444" }} />
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
-                  01/01/2022 - 30/04/2022
+                  Jan 2022 - Apr 2022
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
                   Python Flask Internship program
@@ -56,6 +68,18 @@ function AboutCard() {
                   Tequevia Technologies, NIT Calicut, Kanhangad
                 </p>
               </div>
+              {/* <div className="tab-item">
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  25/03/2024 - 05/09/2024
+                </span>
+                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
+                  Full-Stack Developer Intern
+                </h5>
+                <p style={{ marginBottom: "5px" }}>
+                  RDL Technologies Pvt Ltd - Sahyadri, Adyar, Karnataka
+                </p>
+              </div>
+              <hr style={{ borderColor: "#444" }} /> */}
             </div>
           </Tab>
 
