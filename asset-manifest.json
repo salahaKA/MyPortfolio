@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.3816f649.css",
+    "main.css": "/MyPortfolio/static/css/main.3e0a0a95.css",
     "main.js": "/MyPortfolio/static/js/main.6368e488.js",
     "static/js/453.1407b060.chunk.js": "/MyPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/palliativedoc(salaha).pdf": "/MyPortfolio/static/media/palliativedoc(salaha).8ac98da068990671c440.pdf",
@@ -18,15 +18,16 @@
     "static/media/salaha.jpg": "/MyPortfolio/static/media/salaha.9d9538cc2107d25d2d32.jpg",
     "static/media/logome.jpg": "/MyPortfolio/static/media/logome.fc0f6d5880e9a0a830a4.jpg",
     "static/media/Epitom.png": "/MyPortfolio/static/media/Epitom.19bc1fd2da1d63b1a3f9.png",
+    "static/media/home-bg.jpg": "/MyPortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/todoo.png": "/MyPortfolio/static/media/todoo.9eab688a3bb6839e7f94.png",
     "static/media/pre.svg": "/MyPortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/MyPortfolio/index.html",
-    "main.3816f649.css.map": "/MyPortfolio/static/css/main.3816f649.css.map",
+    "main.3e0a0a95.css.map": "/MyPortfolio/static/css/main.3e0a0a95.css.map",
     "main.6368e488.js.map": "/MyPortfolio/static/js/main.6368e488.js.map",
     "453.1407b060.chunk.js.map": "/MyPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3816f649.css",
+    "static/css/main.3e0a0a95.css",
     "static/js/main.6368e488.js"
   ]
 }
