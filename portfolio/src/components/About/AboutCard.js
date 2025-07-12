@@ -56,7 +56,7 @@ function AboutCard() {
                   RDL Technologies Pvt Ltd - Sahyadri, Adyar, Karnataka
                 </p>
               </div>
-              <hr style={{ borderColor: "#444" }} />
+              {/* <hr style={{ borderColor: "#444" }} />
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Jan 2022 - Apr 2022
@@ -67,7 +67,8 @@ function AboutCard() {
                 <p style={{ marginBottom: "5px" }}>
                   Tequevia Technologies, NIT Calicut, Kanhangad
                 </p>
-              </div>
+              </div> */}
+              
               {/* <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   25/03/2024 - 05/09/2024
