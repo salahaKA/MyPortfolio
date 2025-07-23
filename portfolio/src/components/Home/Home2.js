@@ -33,7 +33,8 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hello! I'm Kadeejath Salaha, a passionate Software Developer With
-              hands-on experience through academic and internship projects.
+              hands-on experience through academic and industry internship projects.
+
               {/* I'm
               committed to building impactful web applications. */}
               <br />
@@ -42,12 +43,14 @@ function Home2() {
                 <b className="purple"> OOPs, C++, Javascript and MySQL. </b>
               </i>
               <br /> */}
-              <br />
+              
+              {/* <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies </b> and also in areas
                 related to <b className="purple">Mobile Applications</b>
-              </i>
+              </i> */}
+
               {/* <br />
               <br />
               Whenever possible, I also apply my passion for developing
