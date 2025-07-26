@@ -17,6 +17,7 @@ import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
+// import feedSmart from "../../Assets/Projects/feedSmart.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -30,7 +31,29 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          {/* <Col md={4} className="project-card">
+          
+            <ProjectCard
+              imgPath={feedSmart}
+              isBlog={false}
+              title={
+                <>
+                  RDL DCS
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (MCA Internship project - 2024)
+                  </span>
+                </>
+              }
+              description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
+              ghLink="https://github.com/salahaKA/checklist.git"
+              demoLink="https://youtu.be/H3lzv1NUGa0"
+              pdfLink={pdfDCS}
+            />
+          </Col> */}
           <Col md={4} className="project-card">
+          
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
