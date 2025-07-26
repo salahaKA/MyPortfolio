@@ -17,7 +17,7 @@ import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
-// import feedSmart from "../../Assets/Projects/feedSmart.png"
+import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -31,29 +31,7 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-          {/* <Col md={4} className="project-card">
-          
-            <ProjectCard
-              imgPath={feedSmart}
-              isBlog={false}
-              title={
-                <>
-                  RDL DCS
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (MCA Internship project - 2024)
-                  </span>
-                </>
-              }
-              description="Designed and Developed a dynamic Digital Check Sheet System using MERN stack during an internship work at RDL Technologies."
-              ghLink="https://github.com/salahaKA/checklist.git"
-              demoLink="https://youtu.be/H3lzv1NUGa0"
-              pdfLink={pdfDCS}
-            />
-          </Col> */}
           <Col md={4} className="project-card">
-          
             <ProjectCard
               imgPath={DCS}
               isBlog={false}
@@ -158,6 +136,18 @@ function Projects() {
               websiteLink=""
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Arsha}
+              isBlog={false}
+              title="Web Design - Figma to Code"
+              description="Responsive web design done with HTML, CSS, JS and Bootstrap"
+              ghLink=""
+              demoLink="https://arsha-demo-test.netlify.app/"
+              websiteLink="https://arsha-demo-test.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
@@ -180,69 +170,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Arsha}
-              isBlog={false}
-              title="Web Design - Figma to Code"
-              description="Responsive web design done with HTML, CSS, JS and Bootstrap"
-              ghLink=""
-              demoLink="https://arsha-demo-test.netlify.app/"
-              websiteLink="https://arsha-demo-test.netlify.app/"
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MP}
-              isBlog={false}
-              title="Play Music"
-              description="UI/UX"
-              // ghLink="https://github.com/salahaKA/musicplayer.git"
-              demoLink="https://salahaka.github.io/musicplayer/"
-              websiteLink="https://salahaka.github.io/musicplayer/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eigo_shoppie}
+              imgPath={feedSmart}
               isBlog={false}
               title={
                 <>
-                  Eigo Shopping Cart
+                  AI-Powered Feedback System
                   <br />
                   <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
                     (Present)
                   </span>
                 </>
               }
-              description="React E-COMMERCE Shopping cart"
-              demoLink=""
-              websiteLink="https://salahaka.github.io/eigo_shoppingweb/"
+              description="Full-stack(React+Pythn(Django)) web application that collects user feedback and analyzes sentiment using natural language processing."
+              ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
-          </Col> */}
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Eigo}
-              isBlog={false}
-              title="UI/UX"
-              description="Demo shopping website home page"
-              ghLink="https://github.com/salahaKA/Eigo_shoppingCart"
-              demoLink="https://salahaka.github.io/Eigo_shoppingCart/"
-              websiteLink=""
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Personal Portfolio Website"
-              description="Personal portfolio using React, CSS and bootstrap."
-              // ghLink="https://github.com/salahaKA/MyPortfolio.git"
-              // demoLink="https://salahaka.github.io/MyPortfolio/"
-              websiteLink="https://salahaka.github.io/MyPortfolio/"
-            />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
