@@ -9,14 +9,14 @@ import DCS from "../../Assets/Projects/DCS.png";
 // import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
-import WeCare from "../../Assets/Projects/weCare.png";
+// import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 // import MP from "../../Assets/Projects/mp.png";
-// import todo from "../../Assets/Projects/todoo.png";
+import todo from "../../Assets/Projects/todoo.png";
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
-import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
+// import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
 import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
 function Projects() {
   return (
@@ -44,7 +44,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="Full-stack web application that collects user feedback and analyzes sentiment using natural language processing."
+              description="Full-stack web application using React(MUI) and Python(Django)."
               ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
           </Col>
@@ -89,7 +89,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={WeCare}
               isBlog={false}
@@ -110,27 +110,9 @@ function Projects() {
               pdfLink={pdfWecare}
               websiteLink=""
             />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={penGes}
-              isBlog={false}
-              title={
-                <>
-                  penGes
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (AIMIT mini - 2023)
-                  </span>
-                </>
-              }
-              description="Designed and Built Android Note-taking mobile application using Android studio with Java, XML, Sqlite and Firebase."
-              ghLink="https://github.com/salahaKA/penGes_android_app.git"
-              demoLink=""
-              websiteLink=""
-            />
           </Col> */}
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -165,7 +147,8 @@ function Projects() {
               websiteLink="https://arsha-demo-test.netlify.app/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
               isBlog={false}
@@ -183,7 +166,29 @@ function Projects() {
               demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink="https://salahaka.github.io/todolist_app/"
             />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={penGes}
+              isBlog={false}
+              title={
+                <>
+                  penGes
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (AIMIT mini - 2023)
+                  </span>
+                </>
+              }
+              description="Designed and Built Android Note-taking mobile application using Android studio with Java, XML, Sqlite and Firebase."
+              ghLink="https://github.com/salahaKA/penGes_android_app.git"
+              demoLink=""
+              websiteLink=""
+            />
           </Col> */}
+          
+          
         </Row>
       </Container>
     </Container>
