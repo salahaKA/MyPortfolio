@@ -6,13 +6,13 @@ import Particle from "../Particle";
 // import Eigo from "../../Assets/Projects/eigo.png";
 // import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
-import penGes from "../../Assets/Projects/penGes1.png";
+// import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
 import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 // import MP from "../../Assets/Projects/mp.png";
-import todo from "../../Assets/Projects/todoo.png";
+// import todo from "../../Assets/Projects/todoo.png";
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
@@ -112,7 +112,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={penGes}
               isBlog={false}
@@ -130,7 +130,7 @@ function Projects() {
               demoLink=""
               websiteLink=""
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -165,7 +165,7 @@ function Projects() {
               websiteLink="https://arsha-demo-test.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
               isBlog={false}
@@ -183,7 +183,7 @@ function Projects() {
               demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink="https://salahaka.github.io/todolist_app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
