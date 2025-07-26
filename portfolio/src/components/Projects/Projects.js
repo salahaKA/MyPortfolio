@@ -9,14 +9,14 @@ import DCS from "../../Assets/Projects/DCS.png";
 import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
-// import WeCare from "../../Assets/Projects/weCare.png";
+import WeCare from "../../Assets/Projects/weCare.png";
 import Epitom23 from "../../Assets/Projects/Epitom.png";
 // import MP from "../../Assets/Projects/mp.png";
 import todo from "../../Assets/Projects/todoo.png";
 import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
-// import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
+import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
 // import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
 function Projects() {
   return (
@@ -89,7 +89,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={WeCare}
               isBlog={false}
@@ -110,7 +110,7 @@ function Projects() {
               pdfLink={pdfWecare}
               websiteLink=""
             />
-          </Col> */}
+          </Col>
 
           
 
