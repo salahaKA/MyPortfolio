@@ -10,8 +10,7 @@ function Type() {
           // "Aspiring Software Developer",
           "MCA Graduate",
           "Full-Stack Developer",
-          "Python/React",
-
+          
           // "FullStack Development",
           // "Web Development",
         ],

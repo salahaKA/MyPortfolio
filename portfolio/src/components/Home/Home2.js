@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/salaha.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
@@ -22,9 +22,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello! I'm Kadeejath Salaha, a passionate Software Developer With
-              hands-on experience through academic and internship projects.
-              
+              {/* Hello! I'm Kadeejath Salaha, a passionate Software Developer With
+              hands-on experience through academic and internship projects. */}
+              Hello! I'm Kadeejath Salaha, a passionate software developer
+              skilled in building full-stack applications using React, Node and
+              Python. With hands-on experience from academic and industry
+              projects, I’ve worked on ERP systems, RESTful APIs, and dynamic
+              web platforms.
               {/* <br />
               My field of Interest's are building new &nbsp;
               <i>
@@ -40,17 +44,15 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid avatar-img" alt="avatar" />
-              
             </Tilt>
           </Col>
-
         </Row>
         <br></br>
         <hr></hr>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
