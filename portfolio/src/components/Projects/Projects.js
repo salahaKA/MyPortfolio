@@ -44,7 +44,7 @@ function Projects() {
                   </span>
                 </>
               }
-              description="Full-stack(React+Django) web application that collects user feedback and analyzes sentiment using natural language processing."
+              description="Full-stack web application that collects user feedback and analyzes sentiment using natural language processing."
               ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
           </Col>
