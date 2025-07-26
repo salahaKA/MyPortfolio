@@ -33,7 +33,7 @@ function AboutCard() {
           >
             <div className="tab-content">
 
-              {/* <div className="tab-item">
+              <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Feb 2025 - Apr 2025
                 </span>
@@ -44,7 +44,8 @@ function AboutCard() {
                   Cybrosys Technologies Pvt Ltd, Kinfra, Kozhikode, Kerala
                 </p>
               </div>
-              <hr style={{ borderColor: "#444" }} /> */}
+              <hr style={{ borderColor: "#444" }} />
+              
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Mar 2024 - Sep 2024
