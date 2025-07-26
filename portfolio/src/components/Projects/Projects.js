@@ -33,6 +33,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={feedSmart}
+              isBlog={false}
+              title={
+                <>
+                  AI-Powered Feedback System
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (Present)
+                  </span>
+                </>
+              }
+              description="Full-stack(React+Django) web application that collects user feedback and analyzes sentiment using natural language processing."
+              ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={DCS}
               isBlog={false}
               title={
@@ -165,24 +182,6 @@ function Projects() {
               // ghLink="https://github.com/salahaKA/todolist_app.git"
               demoLink="https://salahaka.github.io/todolist_app/"
               websiteLink="https://salahaka.github.io/todolist_app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={feedSmart}
-              isBlog={false}
-              title={
-                <>
-                  AI-Powered Feedback System
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (Present)
-                  </span>
-                </>
-              }
-              description="Full-stack(React+Pythn(Django)) web application that collects user feedback and analyzes sentiment using natural language processing."
-              ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
           </Col>
         </Row>
