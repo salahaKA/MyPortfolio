@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // import Eigo from "../../Assets/Projects/eigo.png";
 // import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
 import DCS from "../../Assets/Projects/DCS.png";
-// import penGes from "../../Assets/Projects/penGes1.png";
+import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
 // import WeCare from "../../Assets/Projects/weCare.png";
@@ -17,7 +17,7 @@ import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 // import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
-import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
+// import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -31,7 +31,7 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={feedSmart}
               isBlog={false}
@@ -47,7 +47,7 @@ function Projects() {
               description="Full-stack web application using React(MUI) and Python(Django)."
               ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -168,7 +168,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={penGes}
               isBlog={false}
@@ -186,7 +186,7 @@ function Projects() {
               demoLink=""
               websiteLink=""
             />
-          </Col> */}
+          </Col>
           
           
         </Row>

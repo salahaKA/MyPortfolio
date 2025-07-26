@@ -25,12 +25,12 @@ function Home2() {
               Hello! I'm Kadeejath Salaha, a passionate Software Developer With
               hands-on experience through academic and internship projects.
               
-              <br />
+              {/* <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies </b> and also in areas
                 related to <b className="purple">Mobile Applications</b>
-              </i>
+              </i> */}
               <br />
               <br />
               Feel free to connect with me on LinkedIn or check out my GitHub to
