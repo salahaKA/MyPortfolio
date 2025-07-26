@@ -130,7 +130,7 @@ function AboutCard() {
           >
             <div className="tab-content">
               <ul style={{ paddingLeft: "0", listStyle: "none" }}>
-                <li style={{ marginBottom: "15px" }}>
+                {/* <li style={{ marginBottom: "15px" }}>
                   <h6
                     style={{
                       color: "#9b59b6",
@@ -145,7 +145,7 @@ function AboutCard() {
                     utilizing my skills and knowledge, and continuously learning
                     to deliver impactful solutions.
                   </p>
-                </li>
+                </li> */}
 
                 {/* <hr style={{ borderColor: "#444" }} /> */}
 

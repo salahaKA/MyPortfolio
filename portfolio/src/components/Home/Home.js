@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+
 function Home() {
   return (
     <section>
@@ -23,9 +24,7 @@ function Home() {
                 I'M
                 <strong className="main-name"> KADEEJATH SALAHA</strong>
               </h1>
-              {/* <h5 className="heading-name" style={{ fontSize: "1.5rem" }}>
-                From India
-              </h5> */}
+              
               <br />
               <h4 className="heading-namee" style={{ fontSize: "1rem" }}>
                 From Kasaragod, Kerala, India

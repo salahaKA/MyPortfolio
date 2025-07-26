@@ -14,7 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { FaTools } from "react-icons/fa";
+// import { FaTools } from "react-icons/fa";
 import "./Navbar.css";
 
 
@@ -109,7 +109,7 @@ function NavBar() {
               </Nav.Item>
             </Nav> */}
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/skills"
@@ -117,7 +117,7 @@ function NavBar() {
               >
                 <FaTools style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link href="#" target="_blank" rel="noreferrer">

@@ -9,6 +9,7 @@ import {
   SiPycharm,
   SiJupyter,
   SiXampp,
+  SiDjango,
   SiMicrosoft,
   SiReact,
   SiNetlify,
@@ -16,7 +17,6 @@ import {
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
-// import { DiNetbeans } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -25,16 +25,23 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGit /> {/* GitHub */}
+        <SiPycharm />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql /> {/* MySQL Workbench */}
+        <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaNodeJs /> {/* Node.js */}
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoft />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
@@ -43,29 +50,20 @@ function Toolstack() {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoft />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <FaNodeJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp />
       </Col>
-
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiNetbeans /> 
-      </Col> */}
-
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
