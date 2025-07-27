@@ -17,7 +17,7 @@ import pdfDCS from "../../Assets/Projects/RDL_DCS_Salaha.pdf";
 import pdfBE from "../../Assets/Projects/PPT Bharath EnterprisesEnd.pdf";
 import SACAIM from "../../Assets/Projects/sacaim'24.pdf";
 import pdfWecare from "../../Assets/Projects/palliativedoc(salaha).pdf";
-// import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
+import feedSmart from "../../Assets/Projects/smartFeedWeb.webp";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -31,23 +31,7 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={feedSmart}
-              isBlog={false}
-              title={
-                <>
-                  AI-Powered Feedback System
-                  <br />
-                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    (Present)
-                  </span>
-                </>
-              }
-              description="Full-stack web application using React(MUI) and Python(Django)."
-              ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
-            />
-          </Col> */}
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -65,6 +49,24 @@ function Projects() {
               ghLink="https://github.com/salahaKA/checklist.git"
               demoLink="https://youtu.be/H3lzv1NUGa0"
               pdfLink={pdfDCS}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={feedSmart}
+              isBlog={false}
+              title={
+                <>
+                  AI-Powered Feedback System
+                  <br />
+                  <span style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                    (Present)
+                  </span>
+                </>
+              }
+              description="Full-stack web application using React(MUI) and Python(Django)."
+              ghLink="https://github.com/salahaKA/Feedback-Smart-System.git"
             />
           </Col>
 
