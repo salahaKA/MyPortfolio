@@ -22,19 +22,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              {/* Hello! I'm Kadeejath Salaha, a passionate Software Developer With
-              hands-on experience through academic and internship projects. */}
-              Hello! I'm Kadeejath Salaha, a passionate software developer
-              skilled in building full-stack applications using React, Node and
-              Python. With hands-on experience from academic and industry
-              projects, I’ve worked on ERP systems, RESTful APIs, and dynamic
-              web platforms.
-              {/* <br />
+              {/* Hello! I'm Kadeejath Salaha, a passionate Full Stack Software
+              Developer skilled in building scalable, responsive, and dynamic
+              web applications using modern technologies like React, Node.js,
+              Django, and MySQL. With hands-on experience from both academic and
+              internship projects, I love solving real-world problems through
+              communication and coding. I'm always eager to learn new
+              technologies, collaborate with forward-thinking teams, and
+              contribute meaningfully to impactful projects. */}
+              Hello! I'm Kadeejath Salaha, a passionate Software Developer With
+              hands-on experience through academic and internship projects.
+              {/* Hello! I'm Kadeejath Salaha, a passionate software developer skilled in building full stack web applications.  */}
+              <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies </b> and also in areas
                 related to <b className="purple">Mobile Applications</b>
-              </i> */}
+              </i>
               <br />
               <br />
               Feel free to connect with me on LinkedIn or check out my GitHub to
