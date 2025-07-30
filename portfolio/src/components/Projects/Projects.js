@@ -5,7 +5,7 @@ import Particle from "../Particle";
 // import portfolio from "../../Assets/Projects/portfolio.png";
 // import Eigo from "../../Assets/Projects/eigo.png";
 // import eigo_shoppie from "../../Assets/Projects/Eigo1.png";
-import DCS from "../../Assets/Projects/DCS.png";
+import DCS from "../../Assets/Projects/DCS2.png";
 import penGes from "../../Assets/Projects/penGes1.png";
 import Arsha from "../../Assets/Projects/Arsha.png";
 import BE from "../../Assets/Projects/BE.png";
@@ -31,7 +31,6 @@ function Projects() {
           internship:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DCS}
@@ -114,8 +113,6 @@ function Projects() {
             />
           </Col>
 
-          
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Epitom23}
@@ -189,8 +186,6 @@ function Projects() {
               websiteLink=""
             />
           </Col>
-          
-          
         </Row>
       </Container>
     </Container>
