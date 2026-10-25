@@ -1,7 +1,18 @@
 .icon-button {
-  margin: 0 2px; /* Adds horizontal spacing between buttons */
+  margin: 0 2px;
+  /* Adds horizontal spacing between buttons */
 }
 
+.read-more-toggle {
+  color: #aa367c;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.read-more-toggle:hover {
+  text-decoration: underline;
+}
 
 .project-card-view {
   position: relative;

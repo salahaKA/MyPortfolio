@@ -8,10 +8,11 @@ function Type() {
         strings: [
           // "Open to work",
           // "Aspiring Software Developer",
-          "MCA Graduate",
-          "Full-Stack Developer",
-          
-          // "FullStack Development",
+          // "MCA Graduate",
+          "Junior Software Developer",
+          // "Full-Stack Developer",
+          "React Developer",
+          "FullStack Development",
           // "Web Development",
         ],
         autoStart: true,

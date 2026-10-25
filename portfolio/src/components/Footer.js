@@ -4,12 +4,38 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaChess, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
+const socialLinks = [
+  {
+    href: "https://github.com/salahaKA",
+    icon: <AiFillGithub />,
+    label: "GitHub",
+  },
+  {
+    href: "mailto:kadeejathsalaha@gmail.com",
+    icon: <SiGmail />,
+    label: "Email",
+  },
+  {
+    href: "https://www.linkedin.com/in/salahaka/",
+    icon: <FaLinkedinIn />,
+    label: "LinkedIn",
+  },
+  {
+    href: "https://www.chess.com/member/salahaka",
+    icon: <FaChess />,
+    label: "Chess.com",
+  },
+];
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
+
   return (
-    <Container fluid className="footer" style={{ position: "fixed", bottom: "0",  padding: "10px 0"}}>
+    <Container
+      fluid
+      className="footer"
+      style={{ position: "fixed", bottom: "0", padding: "10px 0" }}
+    >
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Kadeejath Salaha</h3>
@@ -19,58 +45,19 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/salahaKA"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-
-            <li className="social-icons">
-              <a
-                href="mailto:kadeejathsalaha@gmail.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SiGmail />
-              </a>
-            </li>
-
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/salahaka/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://www.instagram.com/__s_a_l_a_h_a__"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li> */}
-            <li className="social-icons">
-              <a
-                href="https://www.chess.com/member/salahaka"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaChess />
-              </a>
-            </li>
+            {socialLinks.map((link) => (
+              <li className="social-icons" key={link.label}>
+                <a
+                  href={link.href}
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={link.label}
+                >
+                  {link.icon}
+                </a>
+              </li>
+            ))}
           </ul>
         </Col>
       </Row>
@@ -78,4 +65,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default React.memo(Footer);

@@ -45,13 +45,13 @@ function ProjectCards(props) {
           )}
 
           <Button
-          variant="outline-dark"
-          href={props.ghLink}
-          target="_blank"
-          className="icon-button"
-        >
-          <BsGithub />
-        </Button>
+            variant="outline-dark"
+            href={props.ghLink}
+            target="_blank"
+            className="icon-button"
+          >
+            <BsGithub />
+          </Button>
           {props.pdfLink && (
             <Button
               variant="outline-dark"

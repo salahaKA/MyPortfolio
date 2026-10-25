@@ -29,23 +29,39 @@ function AboutCard() {
           {/* Experience Tab */}
           <Tab
             eventKey="experience"
-            title={<span style={{ color: "gray" }}>Professional Experience</span>}
+            title={
+              <span style={{ color: "gray" }}>Professional Experience</span>
+            }
           >
             <div className="tab-content">
-
               <div className="tab-item">
+                <span style={{ color: "gray", fontSize: "14px" }}>
+                  Aug 2025 - Oct 2026
+                </span>
+                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
+                  Junior Software Developer - React
+                </h5>
+                <p style={{ marginBottom: "5px" }}>
+                  EQUAL ERP - Tranetech Software Solutions, UL Cyberpark
+                  Kozhikode, Kerala
+                </p>
+              </div>
+
+              <hr style={{ borderColor: "#444" }} />
+
+              {/* <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
                   Feb 2025 - Apr 2025
                 </span>
                 <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
-                  Python / Odoo Developer Trainee
+                  Odoo Developer Trainee
                 </h5>
                 <p style={{ marginBottom: "5px" }}>
                   Cybrosys Technologies Pvt Ltd, Kinfra, Kozhikode, Kerala
                 </p>
               </div>
 
-              <hr style={{ borderColor: "#444" }} />
+              <hr style={{ borderColor: "#444" }} /> */}
 
               <div className="tab-item">
                 <span style={{ color: "gray", fontSize: "14px" }}>
@@ -58,31 +74,6 @@ function AboutCard() {
                   RDL Technologies Pvt Ltd - Sahyadri, Adyar, Karnataka
                 </p>
               </div>
-              {/* <hr style={{ borderColor: "#444" }} />
-              <div className="tab-item">
-                <span style={{ color: "gray", fontSize: "14px" }}>
-                  Jan 2022 - Apr 2022
-                </span>
-                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
-                  Python Flask Internship program
-                </h5>
-                <p style={{ marginBottom: "5px" }}>
-                  Tequevia Technologies, NIT Calicut, Kanhangad
-                </p>
-              </div> */}
-              
-              {/* <div className="tab-item">
-                <span style={{ color: "gray", fontSize: "14px" }}>
-                  25/03/2024 - 05/09/2024
-                </span>
-                <h5 style={{ color: "#9b59b6", marginBottom: "5px" }}>
-                  Full-Stack Developer Intern
-                </h5>
-                <p style={{ marginBottom: "5px" }}>
-                  RDL Technologies Pvt Ltd - Sahyadri, Adyar, Karnataka
-                </p>
-              </div>
-              <hr style={{ borderColor: "#444" }} /> */}
             </div>
           </Tab>
 

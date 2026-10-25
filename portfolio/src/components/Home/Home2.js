@@ -22,27 +22,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              {/* Hello! I'm Kadeejath Salaha, a passionate Full Stack Software
-              Developer skilled in building scalable, responsive, and dynamic
-              web applications using modern technologies like React, Node.js,
-              Django, and MySQL. With hands-on experience from both academic and
-              internship projects, I love solving real-world problems through
-              communication and coding. I'm always eager to learn new
-              technologies, collaborate with forward-thinking teams, and
-              contribute meaningfully to impactful projects. */}
-              Hello! I'm Kadeejath Salaha, a passionate Software Developer With
-              hands-on experience through academic and internship projects.
-              {/* Hello! I'm Kadeejath Salaha, a passionate software developer skilled in building full stack web applications.  */}
-              <br />
-              My field of Interest's are building new &nbsp;
+              My interests lie in building modern{" "}
               <i>
-                <b className="purple">Web Technologies </b> and also in areas
-                related to <b className="purple">Mobile Applications</b>
+                <b className="purple">Software Applications</b>
+              </i>{" "}
+              with a focus on{" "}
+              <i>
+                <b className="purple">React.js</b>,{" "}
+                <b className="purple">Frontend Development</b>
               </i>
+              , and intuitive user experiences.
+              <br />
+              <br />
+              I enjoy solving problems, optimizing code, and transforming
+              business requirements into reliable web applications. I'm always
+              exploring new technologies and improving my development skills.
               <br />
               <br />
               Feel free to connect with me on LinkedIn or check out my GitHub to
-              see more of my work.
+              explore my work and projects.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
