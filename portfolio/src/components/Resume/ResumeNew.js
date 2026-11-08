@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import CV from "../../Assets/Resume/kadeejath_salaha_junior_software_developer.pdf";
+import CV from "../../../src/Assets/Resume25/kadeejath_salaha_software_developer_react.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 // import { Document, Page, pdfjs } from "react-pdf";
 import { pdfjs } from "react-pdf";

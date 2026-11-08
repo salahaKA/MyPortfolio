@@ -21,10 +21,10 @@ function About() {
           </Col>
         </Row>
 
-        {/* <h1 className="project-heading">
+        <h1 className="project-heading">
           <strong className="purple">Tools</strong> I am familiar with
         </h1>
-        <Toolstack /> */}
+        <Toolstack />
       </Container>
     </Container>
   );
