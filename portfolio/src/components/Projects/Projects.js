@@ -55,7 +55,7 @@ const projects = [
   {
     img: BE,
     title: "Bharath Enterprises",
-    subtitle: "AIMIT BCP project, 2024",
+    subtitle: "AIMIT BCP project, 2023",
     description:
       "Designed and developed an e-commerce hardware store to manage online sales and payments using Python Django.",
     tech: ["Python", "Django"],

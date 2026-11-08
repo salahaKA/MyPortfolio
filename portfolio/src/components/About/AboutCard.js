@@ -38,7 +38,7 @@ const experience = [
   {
     type: "Internship",
     date: "Feb 2025 - Apr 2025",
-    role: "Odoo ERP Trainee",
+    role: "Python/Odoo Developer Trainee",
     company: "Cybrosys Technologies",
     location: "Kozhikode, Kerala",
     points: [
